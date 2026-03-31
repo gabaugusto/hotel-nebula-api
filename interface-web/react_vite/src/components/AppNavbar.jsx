@@ -12,7 +12,10 @@ function AppNavbar() {
   return (
     <header className="navbar navbar-expand-lg bg-white border-bottom" role="banner">
       <div className="container">
-        <span className="navbar-brand fw-semibold">Hotel Nebula • React + Vite</span>
+        <span className="navbar-brand fw-semibold">
+            <img src="./favicon.png" alt="Logo do Hotel Nebula" className="d-inline-block align-text-top me-2" width="32" height="32" />
+            Hotel Nebula
+        </span>
         <nav aria-label="Navegação principal">
           <ul className="navbar-nav flex-row gap-3">
             {links.map((link) => (

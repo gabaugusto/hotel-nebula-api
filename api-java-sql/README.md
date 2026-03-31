@@ -8,20 +8,20 @@ Este projeto apresenta a construção de uma API REST com Java, Spring Boot e My
 
 Nesta primeira etapa, a API contempla os seguintes endpoints principais:
 
-/hospedes
-/quartos
-/reservas
-/hospedagens
-/servicos
-/avaliacoes
+- /hospedes
+- /quartos
+- /reservas
+- /hospedagens
+- /servicos
+- /avaliacoes
 
 Além disso, serão implementadas rotas avançadas para consultas mais inteligentes e visão estratégica da operação:
 
-/quartos/disponiveis
-/reservas/ativas
-/hospedes/historico/:id
-/avaliacoes/resumo
-/dashboard/faturamento
+- /quartos/disponiveis
+- /reservas/ativas
+- /hospedes/historico/:id
+- /avaliacoes/resumo
+- /dashboard/faturamento
 
 ## Endpoints de hóspedes (implementados)
 

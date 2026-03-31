@@ -104,7 +104,7 @@ fun NebulaHeroCard() {
     ) {
         Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
             Text(
-                text = "Hotel Nebula Experience",
+                text = "Hotel Nébula Experience",
                 style = MaterialTheme.typography.titleLarge,
                 color = Color.White,
                 fontWeight = FontWeight.Bold,

@@ -1,6 +1,6 @@
-# Interface Web • Hotel Nebula
+# Interface Web • Hotel Nébula
 
-Este módulo reúne a interface web do projeto **Hotel Nebula**, com foco em aprendizado prático de integração entre front-end e APIs REST.
+Este módulo reúne a interface web do projeto **Hotel Nébula**, com foco em aprendizado prático de integração entre front-end e APIs REST.
 
 ## Resumo do projeto
 

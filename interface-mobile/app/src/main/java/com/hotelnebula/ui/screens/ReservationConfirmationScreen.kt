@@ -12,9 +12,11 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.hotelnebula.ui.components.SectionCard
 import com.hotelnebula.ui.navigation.RoomOption
+import com.hotelnebula.ui.theme.HotelNebulaTheme
 
 @Composable
 fun ReservationConfirmationScreen(
@@ -71,3 +73,21 @@ fun ReservationConfirmationScreen(
         }
     }
 }
+
+
+@Preview
+@Composable
+fun ReservationConfirmationScreenPreview() {
+    HotelNebulaTheme {
+        ReservationConfirmationScreen(
+            room = RoomOption(
+                title = "Suíte Luxo com Vista para o Mar",
+                description = "Aprecie a vista deslumbrante do oceano em nossa suíte de luxo, equipada com uma cama king-size, varanda privativa e decoração elegante.",
+                pricePerNight = "R$ 1.200/noite",
+                id = "luxo",
+            ),
+            onNewReservation = {},
+            onGoProfile = {},
+        )
+    }
+}  

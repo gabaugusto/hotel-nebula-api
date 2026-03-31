@@ -58,7 +58,7 @@ function HomePage() {
         <div className="row g-0 align-items-stretch">
           <div className="col-12 col-lg-6 p-4 p-md-5 d-flex flex-column justify-content-center hero-content">
             <p className="hero-kicker mb-2">Experiência premium</p>
-            <h1 id="hero-titulo" className="display-6 fw-bold mb-3">Bem-vindo ao Hotel Nebula</h1>
+            <h1 id="hero-titulo" className="display-6 fw-bold mb-3">Bem-vindo ao Hotel Nébula</h1>
             <p className="text-secondary mb-4">
               Conforto, sofisticação e atendimento de excelência em um só lugar.
               Gerencie reservas e hóspedes com uma interface simples e elegante.
@@ -72,7 +72,7 @@ function HomePage() {
             <img
               src={heroImage}
               className="img-fluid hero-image"
-              alt="Fachada iluminada do Hotel Nebula ao entardecer"
+              alt="Fachada iluminada do Hotel Nébula ao entardecer"
             />
           </div>
         </div>
@@ -82,7 +82,7 @@ function HomePage() {
         <div className="card-body p-4">
           <div className="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
             <h2 id="galeria-titulo" className="h4 mb-0">Galeria de fotos</h2>
-            <span className="text-secondary small">Ambientes e experiências do Hotel Nebula</span>
+            <span className="text-secondary small">Ambientes e experiências do Hotel Nébula</span>
           </div>
 
           <div className="photo-gallery">

@@ -35,7 +35,7 @@ fun LoginScreen(
     ) {
         SectionCard {
             Text(
-                text = "Entrar no Hotel Nebula",
+                text = "Entrar no Hotel Nébula",
                 style = MaterialTheme.typography.headlineSmall,
                 fontWeight = FontWeight.SemiBold,
             )

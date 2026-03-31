@@ -30,7 +30,7 @@ fun NebulaApp() {
     }
 
     val title = when (currentScreen) {
-        AppScreen.Login -> "Hotel Nebula"
+        AppScreen.Login -> "Hotel Nébula"
         AppScreen.Profile -> "Perfil do Usuário"
         AppScreen.Home -> "Home"
         is AppScreen.Reservation -> "Reserva"

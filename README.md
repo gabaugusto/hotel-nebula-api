@@ -1,10 +1,10 @@
-# Hotel Nebula API
+# Hotel Nébula API
 
 Projeto educacional para iniciantes que desejam praticar desenvolvimento de software em um cenário realista de hotelaria, com API, dados e interfaces.
 
 ## Sobre o projeto
 
-O **Hotel Nebula** foi pensado como um laboratório completo de aprendizado. Aqui você pode explorar diferentes stacks mantendo o mesmo domínio de negócio (hóspedes, quartos, reservas, hospedagens, serviços e avaliações).
+O **Hotel Nébula** foi pensado como um laboratório completo de aprendizado. Aqui você pode explorar diferentes stacks mantendo o mesmo domínio de negócio (hóspedes, quartos, reservas, hospedagens, serviços e avaliações).
 
 Você pode estudar:
 

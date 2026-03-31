@@ -53,7 +53,7 @@ fun HomeScreen(
 ) {
     Box(modifier = Modifier.fillMaxSize()) {
         Image(
-            painter = painterResource(id = R.drawable.room_0003),
+            painter = painterResource(id = R.drawable.room_0005),
             contentDescription = null,
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop,

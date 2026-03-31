@@ -1,4 +1,4 @@
-# Interface Mobile • Hotel Nebula
+# Interface Mobile • Hotel Nébula
 
 Este módulo contém a versão Android com **Jetpack Compose**, focada em **UI/UX** e navegação local, sem consumo de API por enquanto.
 

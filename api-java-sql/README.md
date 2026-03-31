@@ -1,4 +1,4 @@
-# Hotel Nebula API (JAVA/SQL)
+# Hotel Nébula API (JAVA/SQL)
 
 ## Criando uma API com Spring Boot, MySQL e Java
 
@@ -171,7 +171,7 @@ Agora vamos configurar a conexão do Spring Boot com o MySQL. Para isso, precisa
 **No arquivo `application.properties` (em `src/main/resources`):**
 
 ```properties
-# Configuracoes do Spring Boot para a API do Hotel Nebula
+# Configuracoes do Spring Boot para a API do Hotel Nébula
 ## Porta em que a API sera executada.
 ## Algo como http://localhost:{porta}/
 server.port = 8082

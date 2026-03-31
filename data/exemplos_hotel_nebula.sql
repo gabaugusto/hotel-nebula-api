@@ -1,4 +1,4 @@
--- Exemplos SQL (MySQL 8+) - Hotel Nebula
+-- Exemplos SQL (MySQL 8+) - Hotel Nébula
 CREATE DATABASE IF NOT EXISTS hotel_nebula;
 USE hotel_nebula;
 

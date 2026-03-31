@@ -1,4 +1,4 @@
-# Hotel Nebula API (Kotlin/NoSQL)
+# Hotel Nébula API (Kotlin/NoSQL)
 
 ## Criando uma API com Spring Boot, Kotlin e MongoDB
 

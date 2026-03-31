@@ -1,6 +1,6 @@
 # Guia de Contribuição
 
-Obrigado por querer contribuir com o **Hotel Nebula API**.
+Obrigado por querer contribuir com o **Hotel Nébula API**.
 
 Este projeto é educacional e voltado para iniciantes, então priorizamos contribuições simples, claras e didáticas.
 

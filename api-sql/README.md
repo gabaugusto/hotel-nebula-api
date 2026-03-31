@@ -1,2 +1,0 @@
-# hotel-nebula-api
-

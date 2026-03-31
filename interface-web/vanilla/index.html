@@ -28,9 +28,57 @@
     </header>
 
     <main id="conteudo" class="container py-4" role="main">
-        <h1 class="h3 mb-3">Bem-vindo ao painel de estudos</h1>
-        <p class="text-secondary">Interface simples para praticar integração com a API do Hotel Nebula via
-            <code>fetch</code>.</p>
+        <section class="hero-section card overflow-hidden shadow-sm mb-4" aria-labelledby="hero-titulo">
+            <div class="row g-0 align-items-stretch">
+                <div class="col-12 col-lg-6 p-4 p-md-5 d-flex flex-column justify-content-center hero-content">
+                    <p class="hero-kicker mb-2">Experiência premium</p>
+                    <h1 id="hero-titulo" class="display-6 fw-bold mb-3">Bem-vindo ao Hotel Nebula</h1>
+                    <p class="text-secondary mb-4">Conforto, sofisticação e atendimento de excelência em um só lugar.
+                        Gerencie reservas e hóspedes com uma interface simples e elegante.</p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="./reservar_quartos.html" class="btn btn-primary btn-lg">Reservar agora</a>
+                        <a href="#galeria" class="btn btn-outline-primary btn-lg">Ver galeria</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img src="./assets/images/Hotel_Nebula.jpg" class="img-fluid hero-image"
+                        alt="Fachada iluminada do Hotel Nebula ao entardecer" />
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="card shadow-sm mb-4" aria-labelledby="galeria-titulo">
+            <div class="card-body p-4">
+                <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
+                    <h2 id="galeria-titulo" class="h4 mb-0">Galeria de fotos</h2>
+                    <span class="text-secondary small">Ambientes e experiências do Hotel Nebula</span>
+                </div>
+
+                <div class="photo-gallery">
+                    <figure class="gallery-item">
+                        <img src="./assets/images/0001_al-maha.webp" alt="Lobby sofisticado com iluminação aconchegante" />
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="./assets/images/0002_amangari.webp" alt="Área externa do hotel com paisagismo elegante" />
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="./assets/images/0003_under_sea.webp" alt="Restaurante temático com atmosfera refinada" />
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="./assets/images/0004_incredible_sea.jpg" alt="Vista panorâmica para o mar em frente ao hotel" />
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="./assets/images/room_0001.jpg" alt="Quarto de luxo com cama king size" />
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="./assets/images/room_0002.jpg" alt="Suíte confortável com varanda privativa" />
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="./assets/images/room_0003.jpg" alt="Banheiro moderno com acabamento premium" />
+                    </figure>
+                </div>
+            </div>
+        </section>
 
         <section class="card shadow-sm" aria-labelledby="configuracao-api-titulo">
             <div class="card-body">

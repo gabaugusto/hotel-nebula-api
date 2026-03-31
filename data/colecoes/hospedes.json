@@ -1,0 +1,32 @@
+[
+  {
+    "_id": 1,
+    "nome": "Carlos Andrade",
+    "email": "carlos.andrade@email.com",
+    "cpf": "123.456.789-00",
+    "telefone": "+55 11 98765-4321",
+    "data_nascimento": "1985-03-22",
+    "data_cadastro": "2025-01-10T10:30:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 2,
+    "nome": "Marina Costa",
+    "email": "marina.costa@email.com",
+    "cpf": "456.789.123-55",
+    "telefone": "+55 21 99876-1111",
+    "data_nascimento": "1992-08-15",
+    "data_cadastro": "2025-01-18T14:10:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 3,
+    "nome": "Pedro Lima",
+    "email": "pedro.lima@email.com",
+    "cpf": "321.654.987-10",
+    "telefone": "+55 31 97777-2222",
+    "data_nascimento": "1979-12-02",
+    "data_cadastro": "2025-02-02T09:00:00Z",
+    "ativo": true
+  }
+]

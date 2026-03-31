@@ -1,0 +1,38 @@
+[
+  {
+    "_id": 1,
+    "hospedagem_id": 1,
+    "servico_id": 1,
+    "data_consumo": "2025-04-11T08:15:00Z",
+    "quantidade": 2,
+    "valor_unitario": 45,
+    "valor_total": 90
+  },
+  {
+    "_id": 2,
+    "hospedagem_id": 1,
+    "servico_id": 2,
+    "data_consumo": "2025-04-12T10:00:00Z",
+    "quantidade": 1,
+    "valor_unitario": 80,
+    "valor_total": 80
+  },
+  {
+    "_id": 3,
+    "hospedagem_id": 1,
+    "servico_id": 3,
+    "data_consumo": "2025-04-13T22:30:00Z",
+    "quantidade": 3,
+    "valor_unitario": 25,
+    "valor_total": 75
+  },
+  {
+    "_id": 4,
+    "hospedagem_id": 2,
+    "servico_id": 1,
+    "data_consumo": "2025-04-13T08:20:00Z",
+    "quantidade": 2,
+    "valor_unitario": 45,
+    "valor_total": 90
+  }
+]

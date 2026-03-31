@@ -1,0 +1,11 @@
+[
+  {
+    "_id": 1,
+    "hospede_id": 1,
+    "quarto_id": 1,
+    "hospedagem_id": 1,
+    "nota_geral": 4.5,
+    "comentario": "Ótima estadia, equipe atenciosa e quarto muito limpo.",
+    "data_avaliacao": "2025-04-15T09:00:00Z"
+  }
+]

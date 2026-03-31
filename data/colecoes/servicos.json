@@ -1,0 +1,30 @@
+[
+  {
+    "_id": 1,
+    "nome": "Café da manhã",
+    "categoria": "alimentacao",
+    "preco": 45,
+    "disponivel": true
+  },
+  {
+    "_id": 2,
+    "nome": "Lavanderia",
+    "categoria": "comodidade",
+    "preco": 80,
+    "disponivel": true
+  },
+  {
+    "_id": 3,
+    "nome": "Minibar",
+    "categoria": "alimentacao",
+    "preco": 25,
+    "disponivel": true
+  },
+  {
+    "_id": 4,
+    "nome": "Transfer aeroporto",
+    "categoria": "transporte",
+    "preco": 120,
+    "disponivel": true
+  }
+]

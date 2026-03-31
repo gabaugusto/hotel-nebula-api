@@ -1,0 +1,32 @@
+[
+  {
+    "_id": 1,
+    "numero": "101",
+    "tipo": "standard",
+    "capacidade": 2,
+    "preco_diaria": 250,
+    "status": "disponivel",
+    "andar": 1,
+    "vista": "jardim"
+  },
+  {
+    "_id": 2,
+    "numero": "202",
+    "tipo": "luxo",
+    "capacidade": 3,
+    "preco_diaria": 420,
+    "status": "ocupado",
+    "andar": 2,
+    "vista": "mar"
+  },
+  {
+    "_id": 3,
+    "numero": "303",
+    "tipo": "suite",
+    "capacidade": 4,
+    "preco_diaria": 680,
+    "status": "disponivel",
+    "andar": 3,
+    "vista": "mar"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "_id": 1,
+    "hospedagem_id": 1,
+    "valor": 1000,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": "2025-04-14T11:05:00Z",
+    "transacao_id": "TXN-VISA-00392"
+  },
+  {
+    "_id": 2,
+    "hospedagem_id": 1,
+    "valor": 245,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": "2025-04-14T11:06:00Z",
+    "transacao_id": "TXN-PIX-00841"
+  },
+  {
+    "_id": 3,
+    "hospedagem_id": 2,
+    "valor": 300,
+    "metodo": "cartao_debito",
+    "status": "pendente",
+    "data_pagamento": null,
+    "transacao_id": "TXN-DEB-00077"
+  }
+]

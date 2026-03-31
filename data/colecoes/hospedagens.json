@@ -1,0 +1,26 @@
+[
+  {
+    "_id": 1,
+    "reserva_id": 1,
+    "funcionario_checkin_id": 1,
+    "funcionario_checkout_id": 2,
+    "checkin_real": "2025-04-10T14:35:00Z",
+    "checkout_real": "2025-04-14T11:10:00Z",
+    "status": "encerrada",
+    "total_diarias": 1000,
+    "total_servicos": 245,
+    "total_geral": 1245
+  },
+  {
+    "_id": 2,
+    "reserva_id": 2,
+    "funcionario_checkin_id": 2,
+    "funcionario_checkout_id": null,
+    "checkin_real": "2025-04-12T15:20:00Z",
+    "checkout_real": null,
+    "status": "em_andamento",
+    "total_diarias": 1260,
+    "total_servicos": 90,
+    "total_geral": 1350
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "_id": 1,
+    "nome": "Juliana Martins",
+    "cargo": "Recepcionista",
+    "departamento": "Recepção",
+    "email": "juliana.martins@hotelnebula.com",
+    "telefone": "+55 21 99123-4567",
+    "ativo": true
+  },
+  {
+    "_id": 2,
+    "nome": "Rafael Nunes",
+    "cargo": "Recepcionista",
+    "departamento": "Recepção",
+    "email": "rafael.nunes@hotelnebula.com",
+    "telefone": "+55 21 99222-1111",
+    "ativo": true
+  },
+  {
+    "_id": 3,
+    "nome": "Ana Prado",
+    "cargo": "Supervisora",
+    "departamento": "Operações",
+    "email": "ana.prado@hotelnebula.com",
+    "telefone": "+55 21 99333-2222",
+    "ativo": true
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "_id": 1,
+    "hospede_id": 1,
+    "quarto_id": 1,
+    "data_reserva": "2025-03-28T14:22:00Z",
+    "data_checkin": "2025-04-10",
+    "data_checkout": "2025-04-14",
+    "status": "confirmada",
+    "canal": "site_proprio",
+    "valor_previsto": 1000
+  },
+  {
+    "_id": 2,
+    "hospede_id": 2,
+    "quarto_id": 2,
+    "data_reserva": "2025-03-30T16:00:00Z",
+    "data_checkin": "2025-04-12",
+    "data_checkout": "2025-04-15",
+    "status": "confirmada",
+    "canal": "agencia_online",
+    "valor_previsto": 1260
+  },
+  {
+    "_id": 3,
+    "hospede_id": 3,
+    "quarto_id": 3,
+    "data_reserva": "2025-04-01T11:45:00Z",
+    "data_checkin": "2025-04-20",
+    "data_checkout": "2025-04-23",
+    "status": "cancelada",
+    "canal": "telefone",
+    "valor_previsto": 2040
+  }
+]

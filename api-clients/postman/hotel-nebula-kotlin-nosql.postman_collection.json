@@ -1,0 +1,468 @@
+{
+  "info": {
+    "_postman_id": "9d0f2eb0-39da-4cce-b3a2-2cd78d2b3f3a",
+    "name": "Hotel Nebula API - Kotlin NoSQL",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Coleção de testes para a API Kotlin/NoSQL (MongoDB). Compatível com Postman e importável no Insomnia."
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8083"
+    }
+  ],
+  "item": [
+    {
+      "name": "Hospedes",
+      "item": [
+        {
+          "name": "Listar hóspedes",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/hospedes",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "hospedes"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Buscar hóspede por ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/hospedes/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "hospedes",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Buscar hóspede por e-mail",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/hospedes/email/carlos.andrade@email.com",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "hospedes",
+                "email",
+                "carlos.andrade@email.com"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Criar hóspede",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"idHospede\": 10,\n  \"nome\": \"Fernanda Souza\",\n  \"email\": \"fernanda.souza@email.com\",\n  \"cpf\": \"111.222.333-44\",\n  \"telefone\": \"+55 11 98888-7777\",\n  \"dataNascimento\": \"1990-06-18\",\n  \"dataCadastro\": \"2026-03-31T10:30:00\",\n  \"ativo\": true\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/hospedes",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "hospedes"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Atualizar hóspede",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"idHospede\": 10,\n  \"nome\": \"Fernanda Souza Atualizada\",\n  \"email\": \"fernanda.souza@email.com\",\n  \"cpf\": \"111.222.333-44\",\n  \"telefone\": \"+55 11 97777-6666\",\n  \"dataNascimento\": \"1990-06-18\",\n  \"dataCadastro\": \"2026-03-31T10:30:00\",\n  \"ativo\": true\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/hospedes/10",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "hospedes",
+                "10"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Histórico do hóspede",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/hospedes/historico/1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "hospedes",
+                "historico",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Excluir hóspede",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/hospedes/10",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "hospedes",
+                "10"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Quartos",
+      "item": [
+        {
+          "name": "Listar quartos",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/quartos",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "quartos"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Listar quartos disponíveis",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/quartos/disponiveis",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "quartos",
+                "disponiveis"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Criar quarto",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"idQuarto\": 40,\n  \"numero\": \"404\",\n  \"tipo\": \"suite\",\n  \"capacidade\": 4,\n  \"precoDiaria\": 850.00,\n  \"status\": \"disponivel\",\n  \"andar\": 4,\n  \"vista\": \"mar\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/quartos",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "quartos"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Reservas",
+      "item": [
+        {
+          "name": "Listar reservas",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/reservas",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "reservas"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Listar reservas ativas",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/reservas/ativas",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "reservas",
+                "ativas"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Criar reserva",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"idReserva\": 90,\n  \"idHospede\": 1,\n  \"idQuarto\": 1,\n  \"dataReserva\": \"2026-03-31T11:00:00\",\n  \"dataCheckin\": \"2026-04-10\",\n  \"dataCheckout\": \"2026-04-12\",\n  \"status\": \"confirmada\",\n  \"canal\": \"site_proprio\",\n  \"valorPrevisto\": 500.00\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/reservas",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "reservas"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hospedagens",
+      "item": [
+        {
+          "name": "Listar hospedagens",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/hospedagens",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "hospedagens"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Criar hospedagem",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"idHospedagem\": 70,\n  \"idReserva\": 90,\n  \"idFuncionarioCheckin\": 1,\n  \"idFuncionarioCheckout\": null,\n  \"checkinReal\": \"2026-04-10T14:00:00\",\n  \"checkoutReal\": null,\n  \"status\": \"em_andamento\",\n  \"totalDiarias\": 500.00,\n  \"totalServicos\": 90.00,\n  \"totalGeral\": 590.00\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/hospedagens",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "hospedagens"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Servicos",
+      "item": [
+        {
+          "name": "Listar serviços",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/servicos",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "servicos"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Listar serviços disponíveis",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/servicos/disponiveis",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "servicos",
+                "disponiveis"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Criar serviço",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"idServico\": 50,\n  \"nome\": \"Spa Premium\",\n  \"categoria\": \"bem_estar\",\n  \"preco\": 180.00,\n  \"disponivel\": true\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/servicos",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "servicos"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Avaliacoes",
+      "item": [
+        {
+          "name": "Listar avaliações",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/avaliacoes",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "avaliacoes"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Resumo de avaliações",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/avaliacoes/resumo",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "avaliacoes",
+                "resumo"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Criar avaliação",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"idFeedback\": 80,\n  \"idHospede\": 1,\n  \"idQuarto\": 1,\n  \"idHospedagem\": 1,\n  \"notaGeral\": 4.8,\n  \"comentario\": \"Excelente experiência, equipe muito atenciosa.\",\n  \"dataAvaliacao\": \"2026-03-31T18:30:00\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/avaliacoes",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "avaliacoes"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dashboard",
+      "item": [
+        {
+          "name": "Faturamento",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseUrl}}/dashboard/faturamento",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "dashboard",
+                "faturamento"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2026-03-31T00:00:00.000Z",
+  "__export_source": "github-copilot",
+  "resources": [
+    {
+      "_id": "wrk_hotel_nebula_kotlin",
+      "_type": "workspace",
+      "name": "Hotel Nebula API Kotlin/NoSQL",
+      "description": "Workspace para testes da API Kotlin com MongoDB.",
+      "scope": "collection"
+    },
+    {
+      "_id": "env_hotel_nebula_kotlin_base",
+      "_type": "environment",
+      "parentId": "wrk_hotel_nebula_kotlin",
+      "name": "Base Environment",
+      "data": {
+        "baseUrl": "http://localhost:8083",
+        "base_url": "http://localhost:8083",
+        "mongoUri": "mongodb://localhost:27017/hotel_nebula",
+        "dbName": "hotel_nebula",
+        "apiName": "hotel-nebula-kotlin-nosql"
+      }
+    }
+  ]
+}

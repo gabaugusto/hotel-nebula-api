@@ -1,0 +1,252 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2026-03-31T00:00:00.000Z",
+  "__export_source": "github-copilot",
+  "resources": [
+    {
+      "_id": "wrk_hotel_nebula_kotlin",
+      "_type": "workspace",
+      "name": "Hotel Nebula API Kotlin/NoSQL",
+      "description": "Workspace com requests da API Kotlin/NoSQL.",
+      "scope": "collection"
+    },
+    {
+      "_id": "env_hotel_nebula_kotlin_base",
+      "_type": "environment",
+      "parentId": "wrk_hotel_nebula_kotlin",
+      "name": "Base Environment",
+      "data": {
+        "baseUrl": "http://localhost:8083",
+        "mongoUri": "mongodb://localhost:27017/hotel_nebula",
+        "dbName": "hotel_nebula"
+      }
+    },
+
+    { "_id": "fld_hospedes", "_type": "request_group", "parentId": "wrk_hotel_nebula_kotlin", "name": "Hospedes" },
+    { "_id": "fld_quartos", "_type": "request_group", "parentId": "wrk_hotel_nebula_kotlin", "name": "Quartos" },
+    { "_id": "fld_reservas", "_type": "request_group", "parentId": "wrk_hotel_nebula_kotlin", "name": "Reservas" },
+    { "_id": "fld_hospedagens", "_type": "request_group", "parentId": "wrk_hotel_nebula_kotlin", "name": "Hospedagens" },
+    { "_id": "fld_servicos", "_type": "request_group", "parentId": "wrk_hotel_nebula_kotlin", "name": "Servicos" },
+    { "_id": "fld_avaliacoes", "_type": "request_group", "parentId": "wrk_hotel_nebula_kotlin", "name": "Avaliacoes" },
+    { "_id": "fld_dashboard", "_type": "request_group", "parentId": "wrk_hotel_nebula_kotlin", "name": "Dashboard" },
+
+    {
+      "_id": "req_hospedes_list",
+      "_type": "request",
+      "parentId": "fld_hospedes",
+      "name": "Listar hóspedes",
+      "method": "GET",
+      "url": "{{ _.baseUrl }}/hospedes"
+    },
+    {
+      "_id": "req_hospedes_get_id",
+      "_type": "request",
+      "parentId": "fld_hospedes",
+      "name": "Buscar hóspede por ID",
+      "method": "GET",
+      "url": "{{ _.baseUrl }}/hospedes/1"
+    },
+    {
+      "_id": "req_hospedes_get_email",
+      "_type": "request",
+      "parentId": "fld_hospedes",
+      "name": "Buscar hóspede por e-mail",
+      "method": "GET",
+      "url": "{{ _.baseUrl }}/hospedes/email/carlos.andrade@email.com"
+    },
+    {
+      "_id": "req_hospedes_create",
+      "_type": "request",
+      "parentId": "fld_hospedes",
+      "name": "Criar hóspede",
+      "method": "POST",
+      "url": "{{ _.baseUrl }}/hospedes",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"idHospede\": 10,\n  \"nome\": \"Fernanda Souza\",\n  \"email\": \"fernanda.souza@email.com\",\n  \"cpf\": \"111.222.333-44\",\n  \"telefone\": \"+55 11 98888-7777\",\n  \"dataNascimento\": \"1990-06-18\",\n  \"dataCadastro\": \"2026-03-31T10:30:00\",\n  \"ativo\": true\n}"
+      },
+      "headers": [{ "name": "Content-Type", "value": "application/json" }]
+    },
+    {
+      "_id": "req_hospedes_update",
+      "_type": "request",
+      "parentId": "fld_hospedes",
+      "name": "Atualizar hóspede",
+      "method": "PUT",
+      "url": "{{ _.baseUrl }}/hospedes/10",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"idHospede\": 10,\n  \"nome\": \"Fernanda Souza Atualizada\",\n  \"email\": \"fernanda.souza@email.com\",\n  \"cpf\": \"111.222.333-44\",\n  \"telefone\": \"+55 11 97777-6666\",\n  \"dataNascimento\": \"1990-06-18\",\n  \"dataCadastro\": \"2026-03-31T10:30:00\",\n  \"ativo\": true\n}"
+      },
+      "headers": [{ "name": "Content-Type", "value": "application/json" }]
+    },
+    {
+      "_id": "req_hospedes_history",
+      "_type": "request",
+      "parentId": "fld_hospedes",
+      "name": "Histórico do hóspede",
+      "method": "GET",
+      "url": "{{ _.baseUrl }}/hospedes/historico/1"
+    },
+    {
+      "_id": "req_hospedes_delete",
+      "_type": "request",
+      "parentId": "fld_hospedes",
+      "name": "Excluir hóspede",
+      "method": "DELETE",
+      "url": "{{ _.baseUrl }}/hospedes/10"
+    },
+
+    {
+      "_id": "req_quartos_list",
+      "_type": "request",
+      "parentId": "fld_quartos",
+      "name": "Listar quartos",
+      "method": "GET",
+      "url": "{{ _.baseUrl }}/quartos"
+    },
+    {
+      "_id": "req_quartos_disponiveis",
+      "_type": "request",
+      "parentId": "fld_quartos",
+      "name": "Listar quartos disponíveis",
+      "method": "GET",
+      "url": "{{ _.baseUrl }}/quartos/disponiveis"
+    },
+    {
+      "_id": "req_quartos_create",
+      "_type": "request",
+      "parentId": "fld_quartos",
+      "name": "Criar quarto",
+      "method": "POST",
+      "url": "{{ _.baseUrl }}/quartos",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"idQuarto\": 40,\n  \"numero\": \"404\",\n  \"tipo\": \"suite\",\n  \"capacidade\": 4,\n  \"precoDiaria\": 850.00,\n  \"status\": \"disponivel\",\n  \"andar\": 4,\n  \"vista\": \"mar\"\n}"
+      },
+      "headers": [{ "name": "Content-Type", "value": "application/json" }]
+    },
+
+    {
+      "_id": "req_reservas_list",
+      "_type": "request",
+      "parentId": "fld_reservas",
+      "name": "Listar reservas",
+      "method": "GET",
+      "url": "{{ _.baseUrl }}/reservas"
+    },
+    {
+      "_id": "req_reservas_ativas",
+      "_type": "request",
+      "parentId": "fld_reservas",
+      "name": "Listar reservas ativas",
+      "method": "GET",
+      "url": "{{ _.baseUrl }}/reservas/ativas"
+    },
+    {
+      "_id": "req_reservas_create",
+      "_type": "request",
+      "parentId": "fld_reservas",
+      "name": "Criar reserva",
+      "method": "POST",
+      "url": "{{ _.baseUrl }}/reservas",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"idReserva\": 90,\n  \"idHospede\": 1,\n  \"idQuarto\": 1,\n  \"dataReserva\": \"2026-03-31T11:00:00\",\n  \"dataCheckin\": \"2026-04-10\",\n  \"dataCheckout\": \"2026-04-12\",\n  \"status\": \"confirmada\",\n  \"canal\": \"site_proprio\",\n  \"valorPrevisto\": 500.00\n}"
+      },
+      "headers": [{ "name": "Content-Type", "value": "application/json" }]
+    },
+
+    {
+      "_id": "req_hospedagens_list",
+      "_type": "request",
+      "parentId": "fld_hospedagens",
+      "name": "Listar hospedagens",
+      "method": "GET",
+      "url": "{{ _.baseUrl }}/hospedagens"
+    },
+    {
+      "_id": "req_hospedagens_create",
+      "_type": "request",
+      "parentId": "fld_hospedagens",
+      "name": "Criar hospedagem",
+      "method": "POST",
+      "url": "{{ _.baseUrl }}/hospedagens",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"idHospedagem\": 70,\n  \"idReserva\": 90,\n  \"idFuncionarioCheckin\": 1,\n  \"idFuncionarioCheckout\": null,\n  \"checkinReal\": \"2026-04-10T14:00:00\",\n  \"checkoutReal\": null,\n  \"status\": \"em_andamento\",\n  \"totalDiarias\": 500.00,\n  \"totalServicos\": 90.00,\n  \"totalGeral\": 590.00\n}"
+      },
+      "headers": [{ "name": "Content-Type", "value": "application/json" }]
+    },
+
+    {
+      "_id": "req_servicos_list",
+      "_type": "request",
+      "parentId": "fld_servicos",
+      "name": "Listar serviços",
+      "method": "GET",
+      "url": "{{ _.baseUrl }}/servicos"
+    },
+    {
+      "_id": "req_servicos_disponiveis",
+      "_type": "request",
+      "parentId": "fld_servicos",
+      "name": "Listar serviços disponíveis",
+      "method": "GET",
+      "url": "{{ _.baseUrl }}/servicos/disponiveis"
+    },
+    {
+      "_id": "req_servicos_create",
+      "_type": "request",
+      "parentId": "fld_servicos",
+      "name": "Criar serviço",
+      "method": "POST",
+      "url": "{{ _.baseUrl }}/servicos",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"idServico\": 50,\n  \"nome\": \"Spa Premium\",\n  \"categoria\": \"bem_estar\",\n  \"preco\": 180.00,\n  \"disponivel\": true\n}"
+      },
+      "headers": [{ "name": "Content-Type", "value": "application/json" }]
+    },
+
+    {
+      "_id": "req_avaliacoes_list",
+      "_type": "request",
+      "parentId": "fld_avaliacoes",
+      "name": "Listar avaliações",
+      "method": "GET",
+      "url": "{{ _.baseUrl }}/avaliacoes"
+    },
+    {
+      "_id": "req_avaliacoes_resumo",
+      "_type": "request",
+      "parentId": "fld_avaliacoes",
+      "name": "Resumo de avaliações",
+      "method": "GET",
+      "url": "{{ _.baseUrl }}/avaliacoes/resumo"
+    },
+    {
+      "_id": "req_avaliacoes_create",
+      "_type": "request",
+      "parentId": "fld_avaliacoes",
+      "name": "Criar avaliação",
+      "method": "POST",
+      "url": "{{ _.baseUrl }}/avaliacoes",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"idFeedback\": 80,\n  \"idHospede\": 1,\n  \"idQuarto\": 1,\n  \"idHospedagem\": 1,\n  \"notaGeral\": 4.8,\n  \"comentario\": \"Excelente experiência, equipe muito atenciosa.\",\n  \"dataAvaliacao\": \"2026-03-31T18:30:00\"\n}"
+      },
+      "headers": [{ "name": "Content-Type", "value": "application/json" }]
+    },
+
+    {
+      "_id": "req_dashboard_faturamento",
+      "_type": "request",
+      "parentId": "fld_dashboard",
+      "name": "Faturamento",
+      "method": "GET",
+      "url": "{{ _.baseUrl }}/dashboard/faturamento"
+    }
+  ]
+}

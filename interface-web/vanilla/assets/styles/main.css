@@ -1,0 +1,24 @@
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    background: #0d6efd;
+    color: #fff;
+    padding: .5rem .75rem;
+    border-radius: .25rem;
+}
+
+.skip-link:focus {
+    left: .75rem;
+    top: .75rem;
+    z-index: 2000;
+}
+
+:focus-visible {
+    outline: 3px solid #0d6efd;
+    outline-offset: 2px;
+}
+
+.card {
+    border: 0;
+}

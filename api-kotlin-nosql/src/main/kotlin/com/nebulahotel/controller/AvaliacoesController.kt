@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*
 import java.math.BigDecimal
 import java.math.RoundingMode
 
+@CrossOrigin
 @RestController
 @RequestMapping("/avaliacoes")
 class AvaliacoesController(

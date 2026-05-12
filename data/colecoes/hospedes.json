@@ -28,5 +28,375 @@
     "data_nascimento": "1979-12-02",
     "data_cadastro": "2025-02-02T09:00:00Z",
     "ativo": true
+  },
+  {
+    "_id": 4,
+    "nome": "Ana Quark",
+    "email": "ana.quark@email.com",
+    "cpf": "111.222.333-44",
+    "telefone": "+55 11 97654-1001",
+    "data_nascimento": "1990-07-11",
+    "data_cadastro": "2025-03-01T12:15:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 5,
+    "nome": "Bruno Turing",
+    "email": "bruno.turing@email.com",
+    "cpf": "222.333.444-55",
+    "telefone": "+55 41 98888-2002",
+    "data_nascimento": "1988-11-03",
+    "data_cadastro": "2025-03-03T16:40:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 6,
+    "nome": "Clara Voyager",
+    "email": "clara.voyager@email.com",
+    "cpf": "333.444.555-66",
+    "telefone": "+55 51 97777-3003",
+    "data_nascimento": "1995-01-19",
+    "data_cadastro": "2025-03-05T08:20:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 7,
+    "nome": "Diego Byte",
+    "email": "diego.byte@email.com",
+    "cpf": "444.555.666-77",
+    "telefone": "+55 61 96666-4004",
+    "data_nascimento": "1998-09-27",
+    "data_cadastro": "2025-03-07T19:05:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 8,
+    "nome": "Elisa Nebula",
+    "email": "elisa.nebula@email.com",
+    "cpf": "555.666.777-88",
+    "telefone": "+55 71 95555-5005",
+    "data_nascimento": "1991-04-14",
+    "data_cadastro": "2025-03-09T10:55:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 9,
+    "nome": "Felipe Quantum",
+    "email": "felipe.quantum@email.com",
+    "cpf": "666.777.888-99",
+    "telefone": "+55 81 94444-6006",
+    "data_nascimento": "1984-06-29",
+    "data_cadastro": "2025-03-11T15:35:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 10,
+    "nome": "Giovana Pixel",
+    "email": "giovana.pixel@email.com",
+    "cpf": "777.888.999-11",
+    "telefone": "+55 91 93333-7007",
+    "data_nascimento": "1997-12-08",
+    "data_cadastro": "2025-03-14T09:45:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 11,
+    "nome": "Naruto Uzumaki",
+    "email": "naruto.uzumaki@email.com",
+    "cpf": "888.111.222-33",
+    "telefone": "+55 11 90000-0011",
+    "data_nascimento": "1994-10-10",
+    "data_cadastro": "2025-03-16T09:10:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 12,
+    "nome": "Sasuke Uchiha",
+    "email": "sasuke.uchiha@email.com",
+    "cpf": "888.111.222-34",
+    "telefone": "+55 11 90000-0012",
+    "data_nascimento": "1994-07-23",
+    "data_cadastro": "2025-03-16T09:12:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 13,
+    "nome": "Sakura Haruno",
+    "email": "sakura.haruno@email.com",
+    "cpf": "888.111.222-35",
+    "telefone": "+55 11 90000-0013",
+    "data_nascimento": "1994-03-28",
+    "data_cadastro": "2025-03-16T09:14:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 14,
+    "nome": "Kakashi Hatake",
+    "email": "kakashi.hatake@email.com",
+    "cpf": "888.111.222-36",
+    "telefone": "+55 11 90000-0014",
+    "data_nascimento": "1988-09-15",
+    "data_cadastro": "2025-03-16T09:16:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 15,
+    "nome": "Goku Son",
+    "email": "goku.son@email.com",
+    "cpf": "888.111.222-37",
+    "telefone": "+55 11 90000-0015",
+    "data_nascimento": "1986-04-16",
+    "data_cadastro": "2025-03-16T09:18:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 16,
+    "nome": "Vegeta Prince",
+    "email": "vegeta.prince@email.com",
+    "cpf": "888.111.222-38",
+    "telefone": "+55 11 90000-0016",
+    "data_nascimento": "1985-11-11",
+    "data_cadastro": "2025-03-16T09:20:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 17,
+    "nome": "Bulma Briefs",
+    "email": "bulma.briefs@email.com",
+    "cpf": "888.111.222-39",
+    "telefone": "+55 11 90000-0017",
+    "data_nascimento": "1990-08-18",
+    "data_cadastro": "2025-03-16T09:22:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 18,
+    "nome": "Luffy Monkey",
+    "email": "luffy.monkey@email.com",
+    "cpf": "888.111.222-40",
+    "telefone": "+55 11 90000-0018",
+    "data_nascimento": "1997-05-05",
+    "data_cadastro": "2025-03-16T09:24:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 19,
+    "nome": "Roronoa Zoro",
+    "email": "roronoa.zoro@email.com",
+    "cpf": "888.111.222-41",
+    "telefone": "+55 11 90000-0019",
+    "data_nascimento": "1993-11-11",
+    "data_cadastro": "2025-03-16T09:26:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 20,
+    "nome": "Nami Navigator",
+    "email": "nami.navigator@email.com",
+    "cpf": "888.111.222-42",
+    "telefone": "+55 11 90000-0020",
+    "data_nascimento": "1996-07-03",
+    "data_cadastro": "2025-03-16T09:28:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 21,
+    "nome": "Levi Ackerman",
+    "email": "levi.ackerman@email.com",
+    "cpf": "888.111.222-43",
+    "telefone": "+55 11 90000-0021",
+    "data_nascimento": "1989-12-25",
+    "data_cadastro": "2025-03-16T09:30:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 22,
+    "nome": "Mikasa Ackerman",
+    "email": "mikasa.ackerman@email.com",
+    "cpf": "888.111.222-44",
+    "telefone": "+55 11 90000-0022",
+    "data_nascimento": "1998-02-10",
+    "data_cadastro": "2025-03-16T09:32:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 23,
+    "nome": "Eren Yeager",
+    "email": "eren.yeager@email.com",
+    "cpf": "888.111.222-45",
+    "telefone": "+55 11 90000-0023",
+    "data_nascimento": "1999-03-30",
+    "data_cadastro": "2025-03-16T09:34:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 24,
+    "nome": "Edward Elric",
+    "email": "edward.elric@email.com",
+    "cpf": "888.111.222-46",
+    "telefone": "+55 11 90000-0024",
+    "data_nascimento": "1995-01-01",
+    "data_cadastro": "2025-03-16T09:36:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 25,
+    "nome": "Tony Stark",
+    "email": "tony.stark@email.com",
+    "cpf": "999.222.333-11",
+    "telefone": "+55 21 90000-0025",
+    "data_nascimento": "1978-05-29",
+    "data_cadastro": "2025-03-17T10:10:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 26,
+    "nome": "Steve Rogers",
+    "email": "steve.rogers@email.com",
+    "cpf": "999.222.333-12",
+    "telefone": "+55 21 90000-0026",
+    "data_nascimento": "1980-07-04",
+    "data_cadastro": "2025-03-17T10:12:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 27,
+    "nome": "Natasha Romanoff",
+    "email": "natasha.romanoff@email.com",
+    "cpf": "999.222.333-13",
+    "telefone": "+55 21 90000-0027",
+    "data_nascimento": "1987-11-22",
+    "data_cadastro": "2025-03-17T10:14:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 28,
+    "nome": "Thor Odinson",
+    "email": "thor.odinson@email.com",
+    "cpf": "999.222.333-14",
+    "telefone": "+55 21 90000-0028",
+    "data_nascimento": "1984-06-14",
+    "data_cadastro": "2025-03-17T10:16:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 29,
+    "nome": "Bruce Banner",
+    "email": "bruce.banner@email.com",
+    "cpf": "999.222.333-15",
+    "telefone": "+55 21 90000-0029",
+    "data_nascimento": "1979-12-18",
+    "data_cadastro": "2025-03-17T10:18:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 30,
+    "nome": "Peter Parker",
+    "email": "peter.parker@email.com",
+    "cpf": "999.222.333-16",
+    "telefone": "+55 21 90000-0030",
+    "data_nascimento": "2001-08-10",
+    "data_cadastro": "2025-03-17T10:20:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 31,
+    "nome": "Wanda Maximoff",
+    "email": "wanda.maximoff@email.com",
+    "cpf": "999.222.333-17",
+    "telefone": "+55 21 90000-0031",
+    "data_nascimento": "1994-02-20",
+    "data_cadastro": "2025-03-17T10:22:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 32,
+    "nome": "Doctor Strange",
+    "email": "doctor.strange@email.com",
+    "cpf": "999.222.333-18",
+    "telefone": "+55 21 90000-0032",
+    "data_nascimento": "1976-01-15",
+    "data_cadastro": "2025-03-17T10:24:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 33,
+    "nome": "TChalla Wakanda",
+    "email": "tchalla.wakanda@email.com",
+    "cpf": "999.222.333-19",
+    "telefone": "+55 21 90000-0033",
+    "data_nascimento": "1988-09-09",
+    "data_cadastro": "2025-03-17T10:26:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 34,
+    "nome": "Carol Danvers",
+    "email": "carol.danvers@email.com",
+    "cpf": "999.222.333-20",
+    "telefone": "+55 21 90000-0034",
+    "data_nascimento": "1986-10-17",
+    "data_cadastro": "2025-03-17T10:28:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 35,
+    "nome": "Bruce Wayne",
+    "email": "bruce.wayne@email.com",
+    "cpf": "999.333.444-21",
+    "telefone": "+55 31 90000-0035",
+    "data_nascimento": "1975-02-19",
+    "data_cadastro": "2025-03-18T11:10:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 36,
+    "nome": "Clark Kent",
+    "email": "clark.kent@email.com",
+    "cpf": "999.333.444-22",
+    "telefone": "+55 31 90000-0036",
+    "data_nascimento": "1982-06-18",
+    "data_cadastro": "2025-03-18T11:12:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 37,
+    "nome": "Diana Prince",
+    "email": "diana.prince@email.com",
+    "cpf": "999.333.444-23",
+    "telefone": "+55 31 90000-0037",
+    "data_nascimento": "1989-03-22",
+    "data_cadastro": "2025-03-18T11:14:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 38,
+    "nome": "Barry Allen",
+    "email": "barry.allen@email.com",
+    "cpf": "999.333.444-24",
+    "telefone": "+55 31 90000-0038",
+    "data_nascimento": "1991-04-09",
+    "data_cadastro": "2025-03-18T11:16:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 39,
+    "nome": "Arthur Curry",
+    "email": "arthur.curry@email.com",
+    "cpf": "999.333.444-25",
+    "telefone": "+55 31 90000-0039",
+    "data_nascimento": "1987-01-29",
+    "data_cadastro": "2025-03-18T11:18:00Z",
+    "ativo": true
+  },
+  {
+    "_id": 40,
+    "nome": "Hal Jordan",
+    "email": "hal.jordan@email.com",
+    "cpf": "999.333.444-26",
+    "telefone": "+55 31 90000-0040",
+    "data_nascimento": "1985-05-03",
+    "data_cadastro": "2025-03-18T11:20:00Z",
+    "ativo": true
   }
 ]

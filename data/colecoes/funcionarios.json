@@ -25,5 +25,32 @@
     "email": "ana.prado@hotelnebula.com",
     "telefone": "+55 21 99333-2222",
     "ativo": true
+  },
+  {
+    "_id": 4,
+    "nome": "Thiago Vector",
+    "cargo": "Concierge",
+    "departamento": "Hospitalidade",
+    "email": "thiago.vector@hotelnebula.com",
+    "telefone": "+55 21 99444-3333",
+    "ativo": true
+  },
+  {
+    "_id": 5,
+    "nome": "Renata Cosmos",
+    "cargo": "Coordenadora de Eventos",
+    "departamento": "Eventos",
+    "email": "renata.cosmos@hotelnebula.com",
+    "telefone": "+55 21 99555-4444",
+    "ativo": true
+  },
+  {
+    "_id": 6,
+    "nome": "Lucas Kernel",
+    "cargo": "Analista de TI",
+    "departamento": "Tecnologia",
+    "email": "lucas.kernel@hotelnebula.com",
+    "telefone": "+55 21 99666-5555",
+    "ativo": true
   }
 ]

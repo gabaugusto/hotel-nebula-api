@@ -16,6 +16,10 @@
             'https://cdn.jsdelivr.net/npm/highcharts/modules/export-data.js'
         ],
         [
+            'https://code.highcharts.com/modules/heatmap.js',
+            'https://cdn.jsdelivr.net/npm/highcharts/modules/heatmap.js'
+        ],
+        [
             'https://code.highcharts.com/modules/accessibility.js',
             'https://cdn.jsdelivr.net/npm/highcharts/modules/accessibility.js'
         ]
@@ -100,12 +104,13 @@
         try {
             setStatus('Carregando dados...');
             
-            const [hospedagens, quartos, reservas, feedbacks, pagamentos] = await Promise.all([
+            const [hospedagens, quartos, reservas, feedbacks, pagamentos, hospedes] = await Promise.all([
                 request('/hospedagens'),
                 request('/quartos'),
                 request('/reservas'),
                 request('/feedbacks'),
-                request('/pagamentos')
+                request('/pagamentos'),
+                request('/hospedes')
             ]);
 
             allData = {
@@ -113,7 +118,8 @@
                 quartos: quartos || [],
                 reservas: reservas || [],
                 feedbacks: feedbacks || [],
-                pagamentos: pagamentos || []
+                pagamentos: pagamentos || [],
+                hospedes: hospedes || []
             };
 
             renderizarDashboard();
@@ -135,6 +141,22 @@
         renderizarGraficoHospedagensPorMes();
         renderizarGraficoCanalReservas();
         renderizarGraficoPrecoAvaliacao();
+        renderizarGraficoTopHospedes();
+        renderizarGraficoHeatmapMesTipoQuarto();
+    }
+
+    function obterValor(obj, chaves, fallback = null) {
+        for (const chave of chaves) {
+            if (obj && obj[chave] !== undefined && obj[chave] !== null) {
+                return obj[chave];
+            }
+        }
+        return fallback;
+    }
+
+    function paraNumero(valor) {
+        const numero = Number(valor);
+        return Number.isFinite(numero) ? numero : 0;
     }
 
     function atualizarEstatisticas() {
@@ -364,6 +386,168 @@
                 colorByPoint: true,
                 data: dadosDispersa,
                 color: '#4facfe'
+            }],
+            credits: { enabled: false },
+            exporting: { enabled: true }
+        });
+    }
+
+    function renderizarGraficoTopHospedes() {
+        const { hospedagens, reservas, hospedes } = allData;
+
+        const reservaParaHospede = new Map(
+            reservas.map((reserva) => [
+                obterValor(reserva, ['_id', 'idReserva']),
+                obterValor(reserva, ['hospede_id', 'idHospede'])
+            ])
+        );
+
+        const nomeHospede = new Map(
+            hospedes.map((hospede) => [
+                obterValor(hospede, ['_id', 'idHospede']),
+                obterValor(hospede, ['nome'], 'Hóspede sem nome')
+            ])
+        );
+
+        const gastoPorHospede = new Map();
+
+        hospedagens.forEach((hospedagem) => {
+            const idReserva = obterValor(hospedagem, ['reserva_id', 'idReserva']);
+            const idHospede = reservaParaHospede.get(idReserva);
+            if (!idHospede) return;
+
+            const valor = paraNumero(obterValor(hospedagem, ['total_geral', 'totalGeral'], 0));
+            gastoPorHospede.set(idHospede, (gastoPorHospede.get(idHospede) || 0) + valor);
+        });
+
+        const top = Array.from(gastoPorHospede.entries())
+            .map(([idHospede, gasto]) => ({
+                nome: nomeHospede.get(idHospede) || `Hóspede #${idHospede}`,
+                gasto
+            }))
+            .sort((a, b) => b.gasto - a.gasto)
+            .slice(0, 10)
+            .reverse();
+
+        Highcharts.chart('chart-top-hospedes', {
+            chart: { type: 'bar' },
+            title: { text: '' },
+            xAxis: {
+                categories: top.map((item) => item.nome),
+                title: { text: 'Hóspede' }
+            },
+            yAxis: {
+                title: { text: 'Gasto total (R$)' }
+            },
+            series: [{
+                name: 'Gasto',
+                data: top.map((item) => item.gasto),
+                color: '#8e44ad',
+                dataLabels: {
+                    enabled: true,
+                    formatter: function () {
+                        return `R$ ${Highcharts.numberFormat(this.y, 0, ',', '.')}`;
+                    }
+                }
+            }],
+            tooltip: {
+                pointFormatter: function () {
+                    return `<b>R$ ${Highcharts.numberFormat(this.y, 2, ',', '.')}</b>`;
+                }
+            },
+            credits: { enabled: false },
+            exporting: { enabled: true }
+        });
+    }
+
+    function renderizarGraficoHeatmapMesTipoQuarto() {
+        const { hospedagens, reservas, quartos } = allData;
+
+        const tipoPorQuarto = new Map(
+            quartos.map((quarto) => [
+                obterValor(quarto, ['_id', 'idQuarto']),
+                obterValor(quarto, ['tipo'], 'Não informado')
+            ])
+        );
+
+        const quartoPorReserva = new Map(
+            reservas.map((reserva) => [
+                obterValor(reserva, ['_id', 'idReserva']),
+                obterValor(reserva, ['quarto_id', 'idQuarto'])
+            ])
+        );
+
+        const mesesSet = new Set();
+        const tiposSet = new Set();
+        const matriz = new Map();
+
+        hospedagens.forEach((hospedagem) => {
+            const checkin = obterValor(hospedagem, ['checkin_real', 'checkinReal']);
+            const idReserva = obterValor(hospedagem, ['reserva_id', 'idReserva']);
+            const idQuarto = quartoPorReserva.get(idReserva);
+            const tipo = tipoPorQuarto.get(idQuarto) || 'Não informado';
+            if (!checkin) return;
+
+            const data = new Date(checkin);
+            if (Number.isNaN(data.getTime())) return;
+
+            const mes = data.toLocaleDateString('pt-BR', { month: 'short', year: '2-digit' });
+
+            mesesSet.add(mes);
+            tiposSet.add(tipo);
+
+            const chave = `${mes}|||${tipo}`;
+            matriz.set(chave, (matriz.get(chave) || 0) + 1);
+        });
+
+        const meses = Array.from(mesesSet);
+        const tipos = Array.from(tiposSet);
+
+        const pontos = [];
+        meses.forEach((mes, x) => {
+            tipos.forEach((tipo, y) => {
+                const chave = `${mes}|||${tipo}`;
+                pontos.push([x, y, matriz.get(chave) || 0]);
+            });
+        });
+
+        Highcharts.chart('chart-heatmap-mes-tipo', {
+            chart: { type: 'heatmap' },
+            title: { text: '' },
+            xAxis: {
+                categories: meses,
+                title: { text: 'Mês' }
+            },
+            yAxis: {
+                categories: tipos,
+                title: { text: 'Tipo de quarto' },
+                reversed: true
+            },
+            colorAxis: {
+                min: 0,
+                minColor: '#edf8ff',
+                maxColor: '#08306b'
+            },
+            legend: {
+                align: 'right',
+                layout: 'vertical',
+                verticalAlign: 'top',
+                y: 25,
+                symbolHeight: 220
+            },
+            tooltip: {
+                formatter: function () {
+                    return `<b>${tipos[this.point.y]}</b><br/><b>${meses[this.point.x]}</b>: ${this.point.value} hospedagem(ns)`;
+                }
+            },
+            series: [{
+                name: 'Hospedagens',
+                borderWidth: 1,
+                data: pontos,
+                dataLabels: {
+                    enabled: true,
+                    color: '#000000'
+                }
             }],
             credits: { enabled: false },
             exporting: { enabled: true }

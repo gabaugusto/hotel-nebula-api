@@ -3,6 +3,7 @@ package com.nebulahotel.controller
 import com.nebulahotel.model.Avaliacoes
 import com.nebulahotel.repository.AvaliacoesRepository
 import org.springframework.http.HttpStatus
+import org.springframework.web.bind.annotation.CrossOrigin
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 import java.math.BigDecimal
@@ -10,7 +11,7 @@ import java.math.RoundingMode
 
 @CrossOrigin
 @RestController
-@RequestMapping("/avaliacoes")
+@RequestMapping("/avaliacoes", "/feedbacks")
 class AvaliacoesController(
     private val avaliacoesRepository: AvaliacoesRepository
 ) {

@@ -3,6 +3,7 @@ package com.nebulahotel.controller
 import com.nebulahotel.model.Hospedes
 import com.nebulahotel.repository.HospedesRepository
 import org.springframework.http.HttpStatus
+import org.springframework.web.bind.annotation.CrossOrigin
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 

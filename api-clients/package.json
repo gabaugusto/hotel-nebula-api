@@ -1,0 +1,11 @@
+{
+  "name": "hotel-nebula-api-clients",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Validation and smoke tests for Hotel Nebula APIs",
+  "type": "module",
+  "scripts": {
+    "check:endpoints": "node ./scripts/check-endpoint-parity.mjs",
+    "smoke": "node ./scripts/smoke-test.mjs"
+  }
+}

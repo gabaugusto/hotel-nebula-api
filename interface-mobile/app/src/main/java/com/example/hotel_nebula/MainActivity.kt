@@ -11,6 +11,7 @@ import com.example.hotel_nebula.viewmodel.HotelViewModel
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTheme(R.style.Theme_Hotelnebula)
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {

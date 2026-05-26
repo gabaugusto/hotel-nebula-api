@@ -2,4 +2,10 @@
 <resources>
 
     <style name="Theme.Hotelnebula" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.Hotelnebula.Starting" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
 </resources>

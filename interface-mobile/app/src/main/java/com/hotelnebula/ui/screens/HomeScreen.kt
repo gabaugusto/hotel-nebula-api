@@ -20,7 +20,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.hotelnebula.R
+import com.example.hotel_nebula.R
 import com.hotelnebula.ui.components.NebulaHeroCard
 import com.hotelnebula.ui.components.SectionCard
 import com.hotelnebula.ui.navigation.RoomOption

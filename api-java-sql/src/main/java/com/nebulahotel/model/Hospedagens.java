@@ -4,6 +4,7 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -14,9 +15,11 @@ public class Hospedagens {
 
     @Id
     @Column(name = "id_hospedagem")
+    @JsonProperty("_id")
     private Integer idHospedagem;
 
     @Column(name = "id_reserva", nullable = false)
+    @JsonProperty("reserva_id")
     private Integer idReserva;
 
     @Column(name = "id_funcionario_checkin")
@@ -26,21 +29,26 @@ public class Hospedagens {
     private Integer idFuncionarioCheckout;
 
     @Column(name = "checkin_real")
+    @JsonProperty("checkin_real")
     private LocalDateTime checkinReal;
 
     @Column(name = "checkout_real")
+    @JsonProperty("checkout_real")
     private LocalDateTime checkoutReal;
 
     @Column(name = "status", nullable = false, length = 20)
     private String status;
 
     @Column(name = "total_diarias", nullable = false)
+    @JsonProperty("total_diarias")
     private BigDecimal totalDiarias;
 
     @Column(name = "total_servicos", nullable = false)
+    @JsonProperty("total_servicos")
     private BigDecimal totalServicos;
 
     @Column(name = "total_geral", nullable = false)
+    @JsonProperty("total_geral")
     private BigDecimal totalGeral;
 
     public Integer getIdHospedagem() {

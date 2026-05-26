@@ -25,5 +25,338 @@
     "status": "pendente",
     "data_pagamento": null,
     "transacao_id": "TXN-DEB-00077"
+  },
+  {
+    "_id": 4,
+    "hospedagem_id": 3,
+    "valor": 3000,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": "2025-05-06T10:50:00Z",
+    "transacao_id": "TXN-VISA-01001"
+  },
+  {
+    "_id": 5,
+    "hospedagem_id": 3,
+    "valor": 445,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": "2025-05-06T10:52:00Z",
+    "transacao_id": "TXN-PIX-01002"
+  },
+  {
+    "_id": 6,
+    "hospedagem_id": 4,
+    "valor": 3655,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": "2025-05-07T11:25:00Z",
+    "transacao_id": "TXN-PIX-01003"
+  },
+  {
+    "_id": 7,
+    "hospedagem_id": 5,
+    "valor": 500,
+    "metodo": "cartao_debito",
+    "status": "pendente",
+    "data_pagamento": null,
+    "transacao_id": "TXN-DEB-01004"
+  },
+  {
+    "_id": 8,
+    "hospedagem_id": 6,
+    "valor": 1470,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": "2025-05-04T11:08:00Z",
+    "transacao_id": "TXN-MC-01005"
+  },
+  {
+    "_id": 9,
+    "hospedagem_id": 7,
+    "valor": 300,
+    "metodo": "pix",
+    "status": "pendente",
+    "data_pagamento": null,
+    "transacao_id": "TXN-PIX-01006"
+  },
+  {
+    "_id": 10,
+    "hospedagem_id": 5,
+    "valor": 1275,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": "2025-05-07T20:10:00Z",
+    "transacao_id": "TXN-PIX-01007"
+  },
+  {
+    "_id": 11,
+    "hospedagem_id": 8,
+    "valor": 930,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-04T11:10:00Z",
+    "transacao_id": "TXN-PIX-02011"
+  },
+  {
+    "_id": 12,
+    "hospedagem_id": 9,
+    "valor": 1460,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-05T11:10:00Z",
+    "transacao_id": "TXN-CC-02012"
+  },
+  {
+    "_id": 13,
+    "hospedagem_id": 10,
+    "valor": 2260,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-06T11:10:00Z",
+    "transacao_id": "TXN-PIX-02013"
+  },
+  {
+    "_id": 14,
+    "hospedagem_id": 11,
+    "valor": 2510,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-07T11:10:00Z",
+    "transacao_id": "TXN-CC-02014"
+  },
+  {
+    "_id": 15,
+    "hospedagem_id": 12,
+    "valor": 1815,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-08T11:10:00Z",
+    "transacao_id": "TXN-PIX-02015"
+  },
+  {
+    "_id": 16,
+    "hospedagem_id": 13,
+    "valor": 2770,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-09T11:10:00Z",
+    "transacao_id": "TXN-CC-02016"
+  },
+  {
+    "_id": 17,
+    "hospedagem_id": 14,
+    "valor": 1550,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-10T11:10:00Z",
+    "transacao_id": "TXN-PIX-02017"
+  },
+  {
+    "_id": 18,
+    "hospedagem_id": 15,
+    "valor": 1090,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-11T11:10:00Z",
+    "transacao_id": "TXN-CC-02018"
+  },
+  {
+    "_id": 19,
+    "hospedagem_id": 16,
+    "valor": 865,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-12T11:10:00Z",
+    "transacao_id": "TXN-PIX-02019"
+  },
+  {
+    "_id": 20,
+    "hospedagem_id": 17,
+    "valor": 1445,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-13T11:10:00Z",
+    "transacao_id": "TXN-CC-02020"
+  },
+  {
+    "_id": 21,
+    "hospedagem_id": 18,
+    "valor": 2290,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-14T11:10:00Z",
+    "transacao_id": "TXN-PIX-02021"
+  },
+  {
+    "_id": 22,
+    "hospedagem_id": 19,
+    "valor": 2525,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-15T11:10:00Z",
+    "transacao_id": "TXN-CC-02022"
+  },
+  {
+    "_id": 23,
+    "hospedagem_id": 20,
+    "valor": 1830,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-16T11:10:00Z",
+    "transacao_id": "TXN-PIX-02023"
+  },
+  {
+    "_id": 24,
+    "hospedagem_id": 21,
+    "valor": 2755,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-17T11:10:00Z",
+    "transacao_id": "TXN-CC-02024"
+  },
+  {
+    "_id": 25,
+    "hospedagem_id": 22,
+    "valor": 1570,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-18T11:10:00Z",
+    "transacao_id": "TXN-PIX-02025"
+  },
+  {
+    "_id": 26,
+    "hospedagem_id": 23,
+    "valor": 1100,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-19T11:10:00Z",
+    "transacao_id": "TXN-CC-02026"
+  },
+  {
+    "_id": 27,
+    "hospedagem_id": 24,
+    "valor": 870,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-20T11:10:00Z",
+    "transacao_id": "TXN-PIX-02027"
+  },
+  {
+    "_id": 28,
+    "hospedagem_id": 25,
+    "valor": 1440,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-21T11:10:00Z",
+    "transacao_id": "TXN-CC-02028"
+  },
+  {
+    "_id": 29,
+    "hospedagem_id": 26,
+    "valor": 2275,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-22T11:10:00Z",
+    "transacao_id": "TXN-PIX-02029"
+  },
+  {
+    "_id": 30,
+    "hospedagem_id": 27,
+    "valor": 2530,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-23T11:10:00Z",
+    "transacao_id": "TXN-CC-02030"
+  },
+  {
+    "_id": 31,
+    "hospedagem_id": 28,
+    "valor": 1825,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-24T11:10:00Z",
+    "transacao_id": "TXN-PIX-02031"
+  },
+  {
+    "_id": 32,
+    "hospedagem_id": 29,
+    "valor": 2765,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-25T11:10:00Z",
+    "transacao_id": "TXN-CC-02032"
+  },
+  {
+    "_id": 33,
+    "hospedagem_id": 30,
+    "valor": 1555,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-26T11:10:00Z",
+    "transacao_id": "TXN-PIX-02033"
+  },
+  {
+    "_id": 34,
+    "hospedagem_id": 31,
+    "valor": 1105,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-27T11:10:00Z",
+    "transacao_id": "TXN-CC-02034"
+  },
+  {
+    "_id": 35,
+    "hospedagem_id": 32,
+    "valor": 860,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-28T11:10:00Z",
+    "transacao_id": "TXN-PIX-02035"
+  },
+  {
+    "_id": 36,
+    "hospedagem_id": 33,
+    "valor": 1450,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-29T11:10:00Z",
+    "transacao_id": "TXN-CC-02036"
+  },
+  {
+    "_id": 37,
+    "hospedagem_id": 34,
+    "valor": 2285,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": "2025-06-30T11:10:00Z",
+    "transacao_id": "TXN-PIX-02037"
+  },
+  {
+    "_id": 38,
+    "hospedagem_id": 35,
+    "valor": 2520,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": "2025-07-01T11:10:00Z",
+    "transacao_id": "TXN-CC-02038"
+  },
+  {
+    "_id": 39,
+    "hospedagem_id": 36,
+    "valor": 1820,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": "2025-07-02T11:10:00Z",
+    "transacao_id": "TXN-PIX-02039"
+  },
+  {
+    "_id": 40,
+    "hospedagem_id": 37,
+    "valor": 2775,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": "2025-07-03T11:10:00Z",
+    "transacao_id": "TXN-CC-02040"
   }
 ]

@@ -7,5 +7,311 @@
     "nota_geral": 4.5,
     "comentario": "Ótima estadia, equipe atenciosa e quarto muito limpo.",
     "data_avaliacao": "2025-04-15T09:00:00Z"
+  },
+  {
+    "_id": 2,
+    "hospede_id": 4,
+    "quarto_id": 4,
+    "hospedagem_id": 3,
+    "nota_geral": 5,
+    "comentario": "Quarto gamer impecável, setup VR e jogos retrô sensacionais.",
+    "data_avaliacao": "2025-05-06T12:30:00Z"
+  },
+  {
+    "_id": 3,
+    "hospede_id": 5,
+    "quarto_id": 6,
+    "hospedagem_id": 4,
+    "nota_geral": 4.8,
+    "comentario": "Excelente para família geek, atendimento rápido e muito cordial.",
+    "data_avaliacao": "2025-05-07T13:10:00Z"
+  },
+  {
+    "_id": 4,
+    "hospede_id": 8,
+    "quarto_id": 2,
+    "hospedagem_id": 6,
+    "nota_geral": 4.7,
+    "comentario": "Vista linda e tour astronômico valeu cada minuto.",
+    "data_avaliacao": "2025-05-04T18:20:00Z"
+  },
+  {
+    "_id": 5,
+    "hospede_id": 1,
+    "quarto_id": 1,
+    "hospedagem_id": 1,
+    "nota_geral": 4.6,
+    "comentario": "Voltarei para a próxima maratona sci-fi no lounge do hotel.",
+    "data_avaliacao": "2025-04-16T10:15:00Z"
+  },
+  {
+    "_id": 6,
+    "hospede_id": 11,
+    "quarto_id": 1,
+    "hospedagem_id": 8,
+    "nota_geral": 4.9,
+    "comentario": "Incrível estadia, quarto silencioso e check-in rápido.",
+    "data_avaliacao": "2025-06-04T12:00:00Z"
+  },
+  {
+    "_id": 7,
+    "hospede_id": 12,
+    "quarto_id": 2,
+    "hospedagem_id": 9,
+    "nota_geral": 4.8,
+    "comentario": "Equipe muito eficiente e café da manhã excelente.",
+    "data_avaliacao": "2025-06-05T12:00:00Z"
+  },
+  {
+    "_id": 8,
+    "hospede_id": 13,
+    "quarto_id": 3,
+    "hospedagem_id": 10,
+    "nota_geral": 4.9,
+    "comentario": "Suíte confortável e ótima experiência geral.",
+    "data_avaliacao": "2025-06-06T12:00:00Z"
+  },
+  {
+    "_id": 9,
+    "hospede_id": 14,
+    "quarto_id": 4,
+    "hospedagem_id": 11,
+    "nota_geral": 4.7,
+    "comentario": "Ambiente impecável, voltarei em breve.",
+    "data_avaliacao": "2025-06-07T12:00:00Z"
+  },
+  {
+    "_id": 10,
+    "hospede_id": 15,
+    "quarto_id": 5,
+    "hospedagem_id": 12,
+    "nota_geral": 4.8,
+    "comentario": "Atendimento cordial e estrutura moderna.",
+    "data_avaliacao": "2025-06-08T12:00:00Z"
+  },
+  {
+    "_id": 11,
+    "hospede_id": 16,
+    "quarto_id": 6,
+    "hospedagem_id": 13,
+    "nota_geral": 5,
+    "comentario": "Hospedagem perfeita para descansar e trabalhar.",
+    "data_avaliacao": "2025-06-09T12:00:00Z"
+  },
+  {
+    "_id": 12,
+    "hospede_id": 17,
+    "quarto_id": 7,
+    "hospedagem_id": 14,
+    "nota_geral": 4.6,
+    "comentario": "Boa estadia e ótima localização do hotel.",
+    "data_avaliacao": "2025-06-10T12:00:00Z"
+  },
+  {
+    "_id": 13,
+    "hospede_id": 18,
+    "quarto_id": 8,
+    "hospedagem_id": 15,
+    "nota_geral": 4.7,
+    "comentario": "Organização exemplar e quarto bem equipado.",
+    "data_avaliacao": "2025-06-11T12:00:00Z"
+  },
+  {
+    "_id": 14,
+    "hospede_id": 19,
+    "quarto_id": 1,
+    "hospedagem_id": 16,
+    "nota_geral": 4.8,
+    "comentario": "Experiência muito positiva em todos os aspectos.",
+    "data_avaliacao": "2025-06-12T12:00:00Z"
+  },
+  {
+    "_id": 15,
+    "hospede_id": 20,
+    "quarto_id": 2,
+    "hospedagem_id": 17,
+    "nota_geral": 4.9,
+    "comentario": "Tudo funcionou bem do check-in ao checkout.",
+    "data_avaliacao": "2025-06-13T12:00:00Z"
+  },
+  {
+    "_id": 16,
+    "hospede_id": 21,
+    "quarto_id": 3,
+    "hospedagem_id": 18,
+    "nota_geral": 4.7,
+    "comentario": "Serviços rápidos e equipe atenciosa.",
+    "data_avaliacao": "2025-06-14T12:00:00Z"
+  },
+  {
+    "_id": 17,
+    "hospede_id": 22,
+    "quarto_id": 4,
+    "hospedagem_id": 19,
+    "nota_geral": 4.8,
+    "comentario": "Ótima limpeza e padrão elevado de conforto.",
+    "data_avaliacao": "2025-06-15T12:00:00Z"
+  },
+  {
+    "_id": 18,
+    "hospede_id": 23,
+    "quarto_id": 5,
+    "hospedagem_id": 20,
+    "nota_geral": 4.9,
+    "comentario": "Excelente custo-benefício para a categoria.",
+    "data_avaliacao": "2025-06-16T12:00:00Z"
+  },
+  {
+    "_id": 19,
+    "hospede_id": 24,
+    "quarto_id": 6,
+    "hospedagem_id": 21,
+    "nota_geral": 5,
+    "comentario": "Quarto amplo e experiência memorável.",
+    "data_avaliacao": "2025-06-17T12:00:00Z"
+  },
+  {
+    "_id": 20,
+    "hospede_id": 25,
+    "quarto_id": 7,
+    "hospedagem_id": 22,
+    "nota_geral": 4.8,
+    "comentario": "Recomendo para quem busca qualidade.",
+    "data_avaliacao": "2025-06-18T12:00:00Z"
+  },
+  {
+    "_id": 21,
+    "hospede_id": 26,
+    "quarto_id": 8,
+    "hospedagem_id": 23,
+    "nota_geral": 4.7,
+    "comentario": "Atendimento muito bom e ambiente agradável.",
+    "data_avaliacao": "2025-06-19T12:00:00Z"
+  },
+  {
+    "_id": 22,
+    "hospede_id": 27,
+    "quarto_id": 1,
+    "hospedagem_id": 24,
+    "nota_geral": 4.8,
+    "comentario": "Tudo muito organizado e sem contratempos.",
+    "data_avaliacao": "2025-06-20T12:00:00Z"
+  },
+  {
+    "_id": 23,
+    "hospede_id": 28,
+    "quarto_id": 2,
+    "hospedagem_id": 25,
+    "nota_geral": 4.9,
+    "comentario": "Estrutura excelente e staff prestativo.",
+    "data_avaliacao": "2025-06-21T12:00:00Z"
+  },
+  {
+    "_id": 24,
+    "hospede_id": 29,
+    "quarto_id": 3,
+    "hospedagem_id": 26,
+    "nota_geral": 4.8,
+    "comentario": "Serviços do hotel superaram expectativas.",
+    "data_avaliacao": "2025-06-22T12:00:00Z"
+  },
+  {
+    "_id": 25,
+    "hospede_id": 30,
+    "quarto_id": 4,
+    "hospedagem_id": 27,
+    "nota_geral": 4.7,
+    "comentario": "Ótima experiência em uma estadia curta.",
+    "data_avaliacao": "2025-06-23T12:00:00Z"
+  },
+  {
+    "_id": 26,
+    "hospede_id": 31,
+    "quarto_id": 5,
+    "hospedagem_id": 28,
+    "nota_geral": 4.9,
+    "comentario": "Conforto e praticidade durante toda a viagem.",
+    "data_avaliacao": "2025-06-24T12:00:00Z"
+  },
+  {
+    "_id": 27,
+    "hospede_id": 32,
+    "quarto_id": 6,
+    "hospedagem_id": 29,
+    "nota_geral": 4.8,
+    "comentario": "Serviço impecável e ótima acomodação.",
+    "data_avaliacao": "2025-06-25T12:00:00Z"
+  },
+  {
+    "_id": 28,
+    "hospede_id": 33,
+    "quarto_id": 7,
+    "hospedagem_id": 30,
+    "nota_geral": 4.6,
+    "comentario": "Hotel muito bom, equipe sempre disponível.",
+    "data_avaliacao": "2025-06-26T12:00:00Z"
+  },
+  {
+    "_id": 29,
+    "hospede_id": 34,
+    "quarto_id": 8,
+    "hospedagem_id": 31,
+    "nota_geral": 4.7,
+    "comentario": "Ambiente agradável e silencioso.",
+    "data_avaliacao": "2025-06-27T12:00:00Z"
+  },
+  {
+    "_id": 30,
+    "hospede_id": 35,
+    "quarto_id": 1,
+    "hospedagem_id": 32,
+    "nota_geral": 4.8,
+    "comentario": "Gostei muito da experiência completa.",
+    "data_avaliacao": "2025-06-28T12:00:00Z"
+  },
+  {
+    "_id": 31,
+    "hospede_id": 36,
+    "quarto_id": 2,
+    "hospedagem_id": 33,
+    "nota_geral": 4.9,
+    "comentario": "Retorno garantido em próxima viagem.",
+    "data_avaliacao": "2025-06-29T12:00:00Z"
+  },
+  {
+    "_id": 32,
+    "hospede_id": 37,
+    "quarto_id": 3,
+    "hospedagem_id": 34,
+    "nota_geral": 4.8,
+    "comentario": "Atendimento premium e quarto confortável.",
+    "data_avaliacao": "2025-06-30T12:00:00Z"
+  },
+  {
+    "_id": 33,
+    "hospede_id": 38,
+    "quarto_id": 4,
+    "hospedagem_id": 35,
+    "nota_geral": 4.7,
+    "comentario": "Tudo excelente, sem pontos negativos.",
+    "data_avaliacao": "2025-07-01T12:00:00Z"
+  },
+  {
+    "_id": 34,
+    "hospede_id": 39,
+    "quarto_id": 5,
+    "hospedagem_id": 36,
+    "nota_geral": 4.8,
+    "comentario": "Boa estrutura e ótima experiência geral.",
+    "data_avaliacao": "2025-07-02T12:00:00Z"
+  },
+  {
+    "_id": 35,
+    "hospede_id": 40,
+    "quarto_id": 6,
+    "hospedagem_id": 37,
+    "nota_geral": 4.9,
+    "comentario": "Fechamento de viagem com ótima impressão.",
+    "data_avaliacao": "2025-07-03T12:00:00Z"
   }
 ]

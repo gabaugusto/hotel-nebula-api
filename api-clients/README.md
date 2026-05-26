@@ -38,7 +38,48 @@ Padronizar os testes de endpoints entre desenvolvedores, evitando coleções esp
 - Manter nomes de requests orientados à ação (ex.: `Listar hóspedes`, `Criar reserva`).
 - Versionar alterações junto com a mudança de endpoint correspondente.
 
+## Validação automatizada (paridade + smoke test)
+
+Esta pasta agora inclui scripts para garantir equivalência entre `api-java-sql` e `api-kotlin-nosql`.
+
+### 1) Checar paridade de endpoints entre os backends
+
+Executa análise estática dos controllers e falha se houver rota presente em uma API e ausente na outra.
+
+```powershell
+cd .\api-clients
+npm run check:endpoints
+```
+
+### 2) Smoke test HTTP (inclui preflight CORS)
+
+Executa GETs principais e preflight `OPTIONS` para `/feedbacks` e `/pagamentos`.
+
+Um alvo:
+
+```powershell
+cd .\api-clients
+npm run check:endpoints
+npm run smoke -- http://localhost:8083
+```
+
+Dois alvos (ex.: Java e Kotlin em portas diferentes):
+
+```powershell
+cd .\api-clients
+npm run smoke -- http://localhost:8083 http://localhost:8084
+```
+
+Ou via variáveis de ambiente:
+
+```powershell
+$env:JAVA_BASE_URL="http://localhost:8083"
+$env:KOTLIN_BASE_URL="http://localhost:8084"
+cd .\api-clients
+npm run smoke
+```
+
 ## Observações
 
-- A coleção atual cobre os principais endpoints CRUD e rotas avançadas do módulo Kotlin/NoSQL.
+- A coleção atual cobre os principais endpoints CRUD e rotas avançadas.
 - Se precisar de ambiente por stage (dev/homolog/prod), criar novos environments no export do Insomnia e variáveis equivalentes no Postman.

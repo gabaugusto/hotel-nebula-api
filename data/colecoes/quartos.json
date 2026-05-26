@@ -28,5 +28,55 @@
     "status": "disponivel",
     "andar": 3,
     "vista": "mar"
+  },
+  {
+    "_id": 4,
+    "numero": "404",
+    "tipo": "suite_gamer",
+    "capacidade": 2,
+    "preco_diaria": 750,
+    "status": "ocupado",
+    "andar": 4,
+    "vista": "cidade"
+  },
+  {
+    "_id": 5,
+    "numero": "501",
+    "tipo": "studio_scifi",
+    "capacidade": 2,
+    "preco_diaria": 540,
+    "status": "disponivel",
+    "andar": 5,
+    "vista": "montanha"
+  },
+  {
+    "_id": 6,
+    "numero": "601",
+    "tipo": "familia",
+    "capacidade": 5,
+    "preco_diaria": 820,
+    "status": "ocupado",
+    "andar": 6,
+    "vista": "cidade"
+  },
+  {
+    "_id": 7,
+    "numero": "707",
+    "tipo": "executivo",
+    "capacidade": 2,
+    "preco_diaria": 460,
+    "status": "manutencao",
+    "andar": 7,
+    "vista": "cidade"
+  },
+  {
+    "_id": 8,
+    "numero": "808",
+    "tipo": "capsula",
+    "capacidade": 1,
+    "preco_diaria": 320,
+    "status": "disponivel",
+    "andar": 8,
+    "vista": "panoramica"
   }
 ]

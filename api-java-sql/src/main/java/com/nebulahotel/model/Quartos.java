@@ -4,6 +4,7 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.math.BigDecimal;
 
@@ -13,6 +14,7 @@ public class Quartos {
 
     @Id
     @Column(name = "id_quarto")
+    @JsonProperty("_id")
     private Integer idQuarto;
 
     @Column(name = "numero", nullable = false, unique = true, length = 10)
@@ -25,6 +27,7 @@ public class Quartos {
     private Integer capacidade;
 
     @Column(name = "preco_diaria", nullable = false)
+    @JsonProperty("preco_diaria")
     private BigDecimal precoDiaria;
 
     @Column(name = "status", nullable = false, length = 20)

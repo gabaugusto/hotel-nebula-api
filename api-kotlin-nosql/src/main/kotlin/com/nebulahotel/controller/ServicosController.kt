@@ -3,9 +3,11 @@ package com.nebulahotel.controller
 import com.nebulahotel.model.Servicos
 import com.nebulahotel.repository.ServicosRepository
 import org.springframework.http.HttpStatus
+import org.springframework.web.bind.annotation.CrossOrigin
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 
+@CrossOrigin
 @RestController
 @RequestMapping("/servicos")
 class ServicosController(

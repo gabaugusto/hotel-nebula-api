@@ -5,6 +5,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Lob;
 import jakarta.persistence.Table;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -15,18 +16,23 @@ public class Avaliacoes {
 
     @Id
     @Column(name = "id_feedback")
+    @JsonProperty("_id")
     private Integer idFeedback;
 
     @Column(name = "id_hospede", nullable = false)
+    @JsonProperty("hospede_id")
     private Integer idHospede;
 
     @Column(name = "id_quarto", nullable = false)
+    @JsonProperty("quarto_id")
     private Integer idQuarto;
 
     @Column(name = "id_hospedagem", nullable = false)
+    @JsonProperty("hospedagem_id")
     private Integer idHospedagem;
 
     @Column(name = "nota_geral", nullable = false)
+    @JsonProperty("nota_geral")
     private BigDecimal notaGeral;
 
     @Lob
@@ -34,6 +40,7 @@ public class Avaliacoes {
     private String comentario;
 
     @Column(name = "data_avaliacao", nullable = false)
+    @JsonProperty("data_avaliacao")
     private LocalDateTime dataAvaliacao;
 
     public Integer getIdFeedback() {

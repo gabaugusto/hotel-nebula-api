@@ -34,5 +34,824 @@
     "quantidade": 2,
     "valor_unitario": 45,
     "valor_total": 90
+  },
+  {
+    "_id": 5,
+    "hospedagem_id": 3,
+    "servico_id": 5,
+    "data_consumo": "2025-05-03T19:30:00Z",
+    "quantidade": 2,
+    "valor_unitario": 60,
+    "valor_total": 120
+  },
+  {
+    "_id": 6,
+    "hospedagem_id": 3,
+    "servico_id": 7,
+    "data_consumo": "2025-05-04T20:15:00Z",
+    "quantidade": 1,
+    "valor_unitario": 150,
+    "valor_total": 150
+  },
+  {
+    "_id": 7,
+    "hospedagem_id": 3,
+    "servico_id": 1,
+    "data_consumo": "2025-05-05T08:05:00Z",
+    "quantidade": 2,
+    "valor_unitario": 45,
+    "valor_total": 90
+  },
+  {
+    "_id": 8,
+    "hospedagem_id": 3,
+    "servico_id": 3,
+    "data_consumo": "2025-05-05T22:10:00Z",
+    "quantidade": 2,
+    "valor_unitario": 25,
+    "valor_total": 50
+  },
+  {
+    "_id": 9,
+    "hospedagem_id": 3,
+    "servico_id": 6,
+    "data_consumo": "2025-05-05T17:20:00Z",
+    "quantidade": 1,
+    "valor_unitario": 35,
+    "valor_total": 35
+  },
+  {
+    "_id": 10,
+    "hospedagem_id": 4,
+    "servico_id": 1,
+    "data_consumo": "2025-05-04T08:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 45,
+    "valor_total": 45
+  },
+  {
+    "_id": 11,
+    "hospedagem_id": 4,
+    "servico_id": 2,
+    "data_consumo": "2025-05-04T10:20:00Z",
+    "quantidade": 1,
+    "valor_unitario": 80,
+    "valor_total": 80
+  },
+  {
+    "_id": 12,
+    "hospedagem_id": 4,
+    "servico_id": 6,
+    "data_consumo": "2025-05-05T16:40:00Z",
+    "quantidade": 2,
+    "valor_unitario": 35,
+    "valor_total": 70
+  },
+  {
+    "_id": 13,
+    "hospedagem_id": 4,
+    "servico_id": 9,
+    "data_consumo": "2025-05-06T21:00:00Z",
+    "quantidade": 1,
+    "valor_unitario": 180,
+    "valor_total": 180
+  },
+  {
+    "_id": 14,
+    "hospedagem_id": 5,
+    "servico_id": 5,
+    "data_consumo": "2025-05-06T18:25:00Z",
+    "quantidade": 1,
+    "valor_unitario": 60,
+    "valor_total": 60
+  },
+  {
+    "_id": 15,
+    "hospedagem_id": 5,
+    "servico_id": 3,
+    "data_consumo": "2025-05-06T23:15:00Z",
+    "quantidade": 2,
+    "valor_unitario": 25,
+    "valor_total": 50
+  },
+  {
+    "_id": 16,
+    "hospedagem_id": 5,
+    "servico_id": 1,
+    "data_consumo": "2025-05-07T07:55:00Z",
+    "quantidade": 1,
+    "valor_unitario": 45,
+    "valor_total": 45
+  },
+  {
+    "_id": 17,
+    "hospedagem_id": 6,
+    "servico_id": 4,
+    "data_consumo": "2025-05-02T09:30:00Z",
+    "quantidade": 1,
+    "valor_unitario": 120,
+    "valor_total": 120
+  },
+  {
+    "_id": 18,
+    "hospedagem_id": 6,
+    "servico_id": 1,
+    "data_consumo": "2025-05-03T08:00:00Z",
+    "quantidade": 2,
+    "valor_unitario": 45,
+    "valor_total": 90
+  },
+  {
+    "_id": 19,
+    "hospedagem_id": 7,
+    "servico_id": 3,
+    "data_consumo": "2025-05-07T22:45:00Z",
+    "quantidade": 1,
+    "valor_unitario": 25,
+    "valor_total": 25
+  },
+  {
+    "_id": 20,
+    "hospedagem_id": 7,
+    "servico_id": 5,
+    "data_consumo": "2025-05-08T20:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 60,
+    "valor_total": 60
+  },
+  {
+    "_id": 21,
+    "hospedagem_id": 7,
+    "servico_id": 6,
+    "data_consumo": "2025-05-08T18:00:00Z",
+    "quantidade": 1,
+    "valor_unitario": 35,
+    "valor_total": 35
+  },
+  {
+    "_id": 22,
+    "hospedagem_id": 8,
+    "servico_id": 1,
+    "data_consumo": "2025-06-01T20:10:00Z",
+    "quantidade": 4,
+    "valor_unitario": 45.0,
+    "valor_total": 180.0
+  },
+  {
+    "_id": 23,
+    "hospedagem_id": 9,
+    "servico_id": 1,
+    "data_consumo": "2025-06-02T20:10:00Z",
+    "quantidade": 4,
+    "valor_unitario": 45.0,
+    "valor_total": 180.0
+  },
+  {
+    "_id": 24,
+    "hospedagem_id": 9,
+    "servico_id": 3,
+    "data_consumo": "2025-06-03T22:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 25.0,
+    "valor_total": 20.0
+  },
+  {
+    "_id": 25,
+    "hospedagem_id": 10,
+    "servico_id": 1,
+    "data_consumo": "2025-06-03T20:10:00Z",
+    "quantidade": 3,
+    "valor_unitario": 45.0,
+    "valor_total": 135.0
+  },
+  {
+    "_id": 26,
+    "hospedagem_id": 10,
+    "servico_id": 5,
+    "data_consumo": "2025-06-03T22:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 60.0,
+    "valor_total": 60.0
+  },
+  {
+    "_id": 27,
+    "hospedagem_id": 10,
+    "servico_id": 3,
+    "data_consumo": "2025-06-05T00:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 25.0,
+    "valor_total": 25.0
+  },
+  {
+    "_id": 28,
+    "hospedagem_id": 11,
+    "servico_id": 1,
+    "data_consumo": "2025-06-04T20:10:00Z",
+    "quantidade": 4,
+    "valor_unitario": 45.0,
+    "valor_total": 180.0
+  },
+  {
+    "_id": 29,
+    "hospedagem_id": 11,
+    "servico_id": 6,
+    "data_consumo": "2025-06-04T22:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 35.0,
+    "valor_total": 35.0
+  },
+  {
+    "_id": 30,
+    "hospedagem_id": 11,
+    "servico_id": 3,
+    "data_consumo": "2025-06-06T00:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 25.0,
+    "valor_total": 45.0
+  },
+  {
+    "_id": 31,
+    "hospedagem_id": 12,
+    "servico_id": 1,
+    "data_consumo": "2025-06-05T20:10:00Z",
+    "quantidade": 3,
+    "valor_unitario": 45.0,
+    "valor_total": 135.0
+  },
+  {
+    "_id": 32,
+    "hospedagem_id": 12,
+    "servico_id": 5,
+    "data_consumo": "2025-06-06T22:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 60.0,
+    "valor_total": 60.0
+  },
+  {
+    "_id": 33,
+    "hospedagem_id": 13,
+    "servico_id": 1,
+    "data_consumo": "2025-06-06T20:10:00Z",
+    "quantidade": 4,
+    "valor_unitario": 45.0,
+    "valor_total": 180.0
+  },
+  {
+    "_id": 34,
+    "hospedagem_id": 13,
+    "servico_id": 2,
+    "data_consumo": "2025-06-06T22:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 80.0,
+    "valor_total": 80.0
+  },
+  {
+    "_id": 35,
+    "hospedagem_id": 13,
+    "servico_id": 3,
+    "data_consumo": "2025-06-08T00:10:00Z",
+    "quantidade": 2,
+    "valor_unitario": 25.0,
+    "valor_total": 50.0
+  },
+  {
+    "_id": 36,
+    "hospedagem_id": 14,
+    "servico_id": 1,
+    "data_consumo": "2025-06-07T20:10:00Z",
+    "quantidade": 3,
+    "valor_unitario": 45.0,
+    "valor_total": 135.0
+  },
+  {
+    "_id": 37,
+    "hospedagem_id": 14,
+    "servico_id": 6,
+    "data_consumo": "2025-06-08T22:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 35.0,
+    "valor_total": 35.0
+  },
+  {
+    "_id": 38,
+    "hospedagem_id": 15,
+    "servico_id": 1,
+    "data_consumo": "2025-06-08T20:10:00Z",
+    "quantidade": 2,
+    "valor_unitario": 45.0,
+    "valor_total": 90.0
+  },
+  {
+    "_id": 39,
+    "hospedagem_id": 15,
+    "servico_id": 3,
+    "data_consumo": "2025-06-09T22:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 25.0,
+    "valor_total": 40.0
+  },
+  {
+    "_id": 40,
+    "hospedagem_id": 16,
+    "servico_id": 1,
+    "data_consumo": "2025-06-09T20:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 45.0,
+    "valor_total": 45.0
+  },
+  {
+    "_id": 41,
+    "hospedagem_id": 16,
+    "servico_id": 6,
+    "data_consumo": "2025-06-10T22:10:00Z",
+    "quantidade": 2,
+    "valor_unitario": 35.0,
+    "valor_total": 70.0
+  },
+  {
+    "_id": 42,
+    "hospedagem_id": 17,
+    "servico_id": 1,
+    "data_consumo": "2025-06-10T20:10:00Z",
+    "quantidade": 3,
+    "valor_unitario": 45.0,
+    "valor_total": 135.0
+  },
+  {
+    "_id": 43,
+    "hospedagem_id": 17,
+    "servico_id": 3,
+    "data_consumo": "2025-06-11T22:10:00Z",
+    "quantidade": 2,
+    "valor_unitario": 25.0,
+    "valor_total": 50.0
+  },
+  {
+    "_id": 44,
+    "hospedagem_id": 18,
+    "servico_id": 1,
+    "data_consumo": "2025-06-11T20:10:00Z",
+    "quantidade": 2,
+    "valor_unitario": 45.0,
+    "valor_total": 90.0
+  },
+  {
+    "_id": 45,
+    "hospedagem_id": 18,
+    "servico_id": 2,
+    "data_consumo": "2025-06-12T22:10:00Z",
+    "quantidade": 2,
+    "valor_unitario": 80.0,
+    "valor_total": 160.0
+  },
+  {
+    "_id": 46,
+    "hospedagem_id": 19,
+    "servico_id": 1,
+    "data_consumo": "2025-06-12T20:10:00Z",
+    "quantidade": 2,
+    "valor_unitario": 45.0,
+    "valor_total": 90.0
+  },
+  {
+    "_id": 47,
+    "hospedagem_id": 19,
+    "servico_id": 2,
+    "data_consumo": "2025-06-12T22:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 80.0,
+    "valor_total": 80.0
+  },
+  {
+    "_id": 48,
+    "hospedagem_id": 19,
+    "servico_id": 6,
+    "data_consumo": "2025-06-14T00:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 35.0,
+    "valor_total": 35.0
+  },
+  {
+    "_id": 49,
+    "hospedagem_id": 19,
+    "servico_id": 3,
+    "data_consumo": "2025-06-14T02:10:00Z",
+    "quantidade": 3,
+    "valor_unitario": 25.0,
+    "valor_total": 70.0
+  },
+  {
+    "_id": 50,
+    "hospedagem_id": 20,
+    "servico_id": 1,
+    "data_consumo": "2025-06-13T20:10:00Z",
+    "quantidade": 3,
+    "valor_unitario": 45.0,
+    "valor_total": 135.0
+  },
+  {
+    "_id": 51,
+    "hospedagem_id": 20,
+    "servico_id": 6,
+    "data_consumo": "2025-06-13T22:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 35.0,
+    "valor_total": 35.0
+  },
+  {
+    "_id": 52,
+    "hospedagem_id": 20,
+    "servico_id": 3,
+    "data_consumo": "2025-06-15T00:10:00Z",
+    "quantidade": 2,
+    "valor_unitario": 25.0,
+    "valor_total": 40.0
+  },
+  {
+    "_id": 53,
+    "hospedagem_id": 21,
+    "servico_id": 1,
+    "data_consumo": "2025-06-14T20:10:00Z",
+    "quantidade": 3,
+    "valor_unitario": 45.0,
+    "valor_total": 135.0
+  },
+  {
+    "_id": 54,
+    "hospedagem_id": 21,
+    "servico_id": 2,
+    "data_consumo": "2025-06-15T22:10:00Z",
+    "quantidade": 2,
+    "valor_unitario": 80.0,
+    "valor_total": 160.0
+  },
+  {
+    "_id": 55,
+    "hospedagem_id": 22,
+    "servico_id": 1,
+    "data_consumo": "2025-06-15T20:10:00Z",
+    "quantidade": 3,
+    "valor_unitario": 45.0,
+    "valor_total": 135.0
+  },
+  {
+    "_id": 56,
+    "hospedagem_id": 22,
+    "servico_id": 3,
+    "data_consumo": "2025-06-16T22:10:00Z",
+    "quantidade": 2,
+    "valor_unitario": 25.0,
+    "valor_total": 55.0
+  },
+  {
+    "_id": 57,
+    "hospedagem_id": 23,
+    "servico_id": 1,
+    "data_consumo": "2025-06-16T20:10:00Z",
+    "quantidade": 2,
+    "valor_unitario": 45.0,
+    "valor_total": 90.0
+  },
+  {
+    "_id": 58,
+    "hospedagem_id": 23,
+    "servico_id": 3,
+    "data_consumo": "2025-06-17T22:10:00Z",
+    "quantidade": 2,
+    "valor_unitario": 25.0,
+    "valor_total": 50.0
+  },
+  {
+    "_id": 59,
+    "hospedagem_id": 24,
+    "servico_id": 1,
+    "data_consumo": "2025-06-17T20:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 45.0,
+    "valor_total": 45.0
+  },
+  {
+    "_id": 60,
+    "hospedagem_id": 24,
+    "servico_id": 3,
+    "data_consumo": "2025-06-18T22:10:00Z",
+    "quantidade": 3,
+    "valor_unitario": 25.0,
+    "valor_total": 75.0
+  },
+  {
+    "_id": 61,
+    "hospedagem_id": 25,
+    "servico_id": 1,
+    "data_consumo": "2025-06-18T20:10:00Z",
+    "quantidade": 4,
+    "valor_unitario": 45.0,
+    "valor_total": 180.0
+  },
+  {
+    "_id": 62,
+    "hospedagem_id": 26,
+    "servico_id": 1,
+    "data_consumo": "2025-06-19T20:10:00Z",
+    "quantidade": 2,
+    "valor_unitario": 45.0,
+    "valor_total": 90.0
+  },
+  {
+    "_id": 63,
+    "hospedagem_id": 26,
+    "servico_id": 2,
+    "data_consumo": "2025-06-19T22:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 80.0,
+    "valor_total": 80.0
+  },
+  {
+    "_id": 64,
+    "hospedagem_id": 26,
+    "servico_id": 6,
+    "data_consumo": "2025-06-21T00:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 35.0,
+    "valor_total": 35.0
+  },
+  {
+    "_id": 65,
+    "hospedagem_id": 26,
+    "servico_id": 3,
+    "data_consumo": "2025-06-21T02:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 25.0,
+    "valor_total": 30.0
+  },
+  {
+    "_id": 66,
+    "hospedagem_id": 27,
+    "servico_id": 1,
+    "data_consumo": "2025-06-20T20:10:00Z",
+    "quantidade": 2,
+    "valor_unitario": 45.0,
+    "valor_total": 90.0
+  },
+  {
+    "_id": 67,
+    "hospedagem_id": 27,
+    "servico_id": 2,
+    "data_consumo": "2025-06-20T22:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 80.0,
+    "valor_total": 80.0
+  },
+  {
+    "_id": 68,
+    "hospedagem_id": 27,
+    "servico_id": 3,
+    "data_consumo": "2025-06-22T00:10:00Z",
+    "quantidade": 5,
+    "valor_unitario": 25.0,
+    "valor_total": 110.0
+  },
+  {
+    "_id": 69,
+    "hospedagem_id": 28,
+    "servico_id": 1,
+    "data_consumo": "2025-06-21T20:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 45.0,
+    "valor_total": 45.0
+  },
+  {
+    "_id": 70,
+    "hospedagem_id": 28,
+    "servico_id": 2,
+    "data_consumo": "2025-06-22T22:10:00Z",
+    "quantidade": 2,
+    "valor_unitario": 80.0,
+    "valor_total": 160.0
+  },
+  {
+    "_id": 71,
+    "hospedagem_id": 29,
+    "servico_id": 1,
+    "data_consumo": "2025-06-22T20:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 45.0,
+    "valor_total": 45.0
+  },
+  {
+    "_id": 72,
+    "hospedagem_id": 29,
+    "servico_id": 2,
+    "data_consumo": "2025-06-22T22:10:00Z",
+    "quantidade": 2,
+    "valor_unitario": 80.0,
+    "valor_total": 160.0
+  },
+  {
+    "_id": 73,
+    "hospedagem_id": 29,
+    "servico_id": 3,
+    "data_consumo": "2025-06-24T00:10:00Z",
+    "quantidade": 4,
+    "valor_unitario": 25.0,
+    "valor_total": 100.0
+  },
+  {
+    "_id": 74,
+    "hospedagem_id": 30,
+    "servico_id": 1,
+    "data_consumo": "2025-06-23T20:10:00Z",
+    "quantidade": 3,
+    "valor_unitario": 45.0,
+    "valor_total": 135.0
+  },
+  {
+    "_id": 75,
+    "hospedagem_id": 30,
+    "servico_id": 6,
+    "data_consumo": "2025-06-23T22:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 35.0,
+    "valor_total": 35.0
+  },
+  {
+    "_id": 76,
+    "hospedagem_id": 30,
+    "servico_id": 3,
+    "data_consumo": "2025-06-25T00:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 25.0,
+    "valor_total": 5.0
+  },
+  {
+    "_id": 77,
+    "hospedagem_id": 31,
+    "servico_id": 1,
+    "data_consumo": "2025-06-24T20:10:00Z",
+    "quantidade": 2,
+    "valor_unitario": 45.0,
+    "valor_total": 90.0
+  },
+  {
+    "_id": 78,
+    "hospedagem_id": 31,
+    "servico_id": 6,
+    "data_consumo": "2025-06-24T22:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 35.0,
+    "valor_total": 35.0
+  },
+  {
+    "_id": 79,
+    "hospedagem_id": 31,
+    "servico_id": 3,
+    "data_consumo": "2025-06-26T00:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 25.0,
+    "valor_total": 20.0
+  },
+  {
+    "_id": 80,
+    "hospedagem_id": 32,
+    "servico_id": 1,
+    "data_consumo": "2025-06-25T20:10:00Z",
+    "quantidade": 2,
+    "valor_unitario": 45.0,
+    "valor_total": 90.0
+  },
+  {
+    "_id": 81,
+    "hospedagem_id": 32,
+    "servico_id": 3,
+    "data_consumo": "2025-06-26T22:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 25.0,
+    "valor_total": 20.0
+  },
+  {
+    "_id": 82,
+    "hospedagem_id": 33,
+    "servico_id": 1,
+    "data_consumo": "2025-06-26T20:10:00Z",
+    "quantidade": 3,
+    "valor_unitario": 45.0,
+    "valor_total": 135.0
+  },
+  {
+    "_id": 83,
+    "hospedagem_id": 33,
+    "servico_id": 3,
+    "data_consumo": "2025-06-27T22:10:00Z",
+    "quantidade": 2,
+    "valor_unitario": 25.0,
+    "valor_total": 55.0
+  },
+  {
+    "_id": 84,
+    "hospedagem_id": 34,
+    "servico_id": 1,
+    "data_consumo": "2025-06-27T20:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 45.0,
+    "valor_total": 45.0
+  },
+  {
+    "_id": 85,
+    "hospedagem_id": 34,
+    "servico_id": 2,
+    "data_consumo": "2025-06-27T22:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 80.0,
+    "valor_total": 80.0
+  },
+  {
+    "_id": 86,
+    "hospedagem_id": 34,
+    "servico_id": 4,
+    "data_consumo": "2025-06-29T00:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 120.0,
+    "valor_total": 120.0
+  },
+  {
+    "_id": 87,
+    "hospedagem_id": 35,
+    "servico_id": 1,
+    "data_consumo": "2025-06-28T20:10:00Z",
+    "quantidade": 2,
+    "valor_unitario": 45.0,
+    "valor_total": 90.0
+  },
+  {
+    "_id": 88,
+    "hospedagem_id": 35,
+    "servico_id": 2,
+    "data_consumo": "2025-06-28T22:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 80.0,
+    "valor_total": 80.0
+  },
+  {
+    "_id": 89,
+    "hospedagem_id": 35,
+    "servico_id": 3,
+    "data_consumo": "2025-06-30T00:10:00Z",
+    "quantidade": 4,
+    "valor_unitario": 25.0,
+    "valor_total": 100.0
+  },
+  {
+    "_id": 90,
+    "hospedagem_id": 36,
+    "servico_id": 1,
+    "data_consumo": "2025-06-29T20:10:00Z",
+    "quantidade": 4,
+    "valor_unitario": 45.0,
+    "valor_total": 180.0
+  },
+  {
+    "_id": 91,
+    "hospedagem_id": 36,
+    "servico_id": 3,
+    "data_consumo": "2025-06-30T22:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 25.0,
+    "valor_total": 20.0
+  },
+  {
+    "_id": 92,
+    "hospedagem_id": 37,
+    "servico_id": 1,
+    "data_consumo": "2025-06-30T20:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 45.0,
+    "valor_total": 45.0
+  },
+  {
+    "_id": 93,
+    "hospedagem_id": 37,
+    "servico_id": 2,
+    "data_consumo": "2025-06-30T22:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 80.0,
+    "valor_total": 80.0
+  },
+  {
+    "_id": 94,
+    "hospedagem_id": 37,
+    "servico_id": 7,
+    "data_consumo": "2025-07-02T00:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 150.0,
+    "valor_total": 150.0
+  },
+  {
+    "_id": 95,
+    "hospedagem_id": 37,
+    "servico_id": 3,
+    "data_consumo": "2025-07-02T02:10:00Z",
+    "quantidade": 1,
+    "valor_unitario": 25.0,
+    "valor_total": 40.0
   }
 ]

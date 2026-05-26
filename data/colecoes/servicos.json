@@ -26,5 +26,40 @@
     "categoria": "transporte",
     "preco": 120,
     "disponivel": true
+  },
+  {
+    "_id": 5,
+    "nome": "Sala de jogos retrô",
+    "categoria": "entretenimento",
+    "preco": 60,
+    "disponivel": true
+  },
+  {
+    "_id": 6,
+    "nome": "Kit board games",
+    "categoria": "entretenimento",
+    "preco": 35,
+    "disponivel": true
+  },
+  {
+    "_id": 7,
+    "nome": "Estação VR",
+    "categoria": "entretenimento",
+    "preco": 150,
+    "disponivel": true
+  },
+  {
+    "_id": 8,
+    "nome": "Workshop de robótica",
+    "categoria": "experiencia",
+    "preco": 220,
+    "disponivel": true
+  },
+  {
+    "_id": 9,
+    "nome": "Tour observatório astronomia",
+    "categoria": "experiencia",
+    "preco": 180,
+    "disponivel": true
   }
 ]

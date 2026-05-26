@@ -1,0 +1,18 @@
+{
+  "name": "hotel-nebula-api-nodejs",
+  "version": "1.0.0",
+  "description": "Hotel Nebula API em Node.js com Express",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}

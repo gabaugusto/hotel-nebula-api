@@ -1,6 +1,6 @@
 # Dados do Projeto
 
-Esta pasta concentra os dados de apoio usados para desenvolvimento, testes e demonstrações do **Hotel Nebula API**.
+Esta pasta concentra os dados de apoio usados para desenvolvimento, testes e demonstrações do **Hotel Nébula API**.
 
 ## Qual o papel dos dados neste projeto?
 

@@ -10,8 +10,9 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
 
+@CrossOrigin
 @RestController
-@RequestMapping("/avaliacoes")
+@RequestMapping({"/avaliacoes", "/feedbacks"})
 public class AvaliacoesController {
 
     private final AvaliacoesRepository avaliacoesRepository;
